@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id, source, page",none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"Cửa sổ cố định 500 ký tự có overlap 50 giúp giảm rách thông tin nhưng dễ ngắt giữa câu",9/15 (0.60),9/15 (0.60),3/5 (0.60),4/5 (0.80),"175 chunks, embedding 7.16s, ingest 0.11s, chi phí $0. Hit@3 test cao nhờ overlap nhưng nhiều chunk bị cắt giữa từ"
+B,by_paragraph,500,0,"document_id, source, page",none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"Cắt theo đoạn văn tự nhiên (dưới 500 ký tự) giữ trọn vẹn ngữ nghĩa và cấu trúc logic của tài liệu",9/15 (0.60),10/15 (0.67),2/5 (0.40),3/5 (0.60),"161 chunks, embedding 6.56s, ingest 0.08s, chi phí $0. Tăng dev Hit@3 lên 66.7%, tính mạch lạc (coherence) vượt trội A"
+C,by_paragraph,500,0,"document_id, source, page, device, family, manufacturer",metadata_sql,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"Tái sử dụng chunk của B và áp dụng lọc metadata qua SQL giúp khoanh vùng chính xác phạm vi tài liệu",9/15 (0.60),10/15 (0.67),2/5 (0.40),3/5 (0.60),"Tái sử dụng embedding B (0.0s), ingest 0.10s. Với câu có filter thì 100% chunk trả về tuân thủ đúng metadata"
