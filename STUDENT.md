@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên:
-- MSSV:
-- Lớp: L3A / L3B / khác:
+- Họ và tên: Nguyễn Đức Trọng
+- MSSV: 2A202603367
+- Lớp: L3A
 - Chủ đề và corpus:
-- Repo bài nộp:
+- Repo bài nộp: 
 - Commit chốt bài:

@@ -1,0 +1,214 @@
+{
+  "warning": "Dataset benchmark cho STM32F103C8 Datasheet, gom 15 dev va 5 test.",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Lõi vi điều khiển của dòng STM32F103x8 và STM32F103xB là gì?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 1,
+      "evidence_quote": "Arm®-based 32-bit MCU",
+      "expected_answer": "Arm 32-bit Cortex-M3",
+      "filters": {
+        "family": "STM32F1"
+      }
+    },
+    {
+      "id": "q02",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Tần số hoạt động tối đa của STM32F103xx là bao nhiêu MHz?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 1,
+      "evidence_quote": "72 MHz maximum frequency",
+      "expected_answer": "72 MHz"
+    },
+    {
+      "id": "q03",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Dải điện áp hoạt động ứng dụng và I/O của STM32F103xx là bao nhiêu?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 1,
+      "evidence_quote": "2.0 to 3.6 V application supply and I/Os",
+      "expected_answer": "2.0 V đến 3.6 V"
+    },
+    {
+      "id": "q04",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Vi điều khiển STM32F103xx hỗ trợ những chế độ tiết kiệm năng lượng nào?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 1,
+      "evidence_quote": "Sleep, Stop and Standby modes",
+      "expected_answer": "Sleep, Stop và Standby"
+    },
+    {
+      "id": "q05",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Độ phân giải và thời gian chuyển đổi của bộ A/D converter trên STM32F103xx là bao nhiêu?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 1,
+      "evidence_quote": "12-bit, 1 µs A/D converter",
+      "expected_answer": "12-bit và 1 µs"
+    },
+    {
+      "id": "q06",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Tài liệu giới thiệu những dòng vi điều khiển hiệu năng trung bình nào của STMicroelectronics?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 9,
+      "evidence_quote": "STM32F103x8 and STM32F103xB medium-density performance line microcontrollers",
+      "expected_answer": "STM32F103x8 và STM32F103xB"
+    },
+    {
+      "id": "q07",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Bảng 2 trong datasheet mô tả nội dung gì của các thiết bị medium-density?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 10,
+      "evidence_quote": "medium-density device features and peripheral counts",
+      "expected_answer": "Đặc tính thiết bị và số lượng ngoại vi dòng medium-density"
+    },
+    {
+      "id": "q08",
+      "type": "dieu_kien",
+      "split": "dev",
+      "question": "Khi HSI được dùng làm đầu vào PLL clock thì tần số xung nhịp hệ thống tối đa đạt được là bao nhiêu?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 12,
+      "evidence_quote": "When the HSI is used as a PLL clock input, the maxi mum system clock frequency that can be achieved is 64 MHz.",
+      "expected_answer": "64 MHz"
+    },
+    {
+      "id": "q09",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Các thành viên trong họ STM32F103xx có mức độ tương thích như thế nào với nhau?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 13,
+      "evidence_quote": "STM32F103xx is a complete family whose members are fully pin-to-pin, software, and feature compatible.",
+      "expected_answer": "Tương thích hoàn toàn pin-to-pin, phần mềm và tính năng"
+    },
+    {
+      "id": "q10",
+      "type": "dien_dat_lai",
+      "split": "dev",
+      "question": "Bộ xử lý Arm Cortex-M3 được phát triển nhằm đáp ứng mục đích gì cho các hệ thống nhúng?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 14,
+      "evidence_quote": "The Arm® Cortex®-M3 processor is the latest generation of Arm® processors for embedded systems.",
+      "expected_answer": "Cung cấp nền tảng chi phí thấp, giảm số chân và tiết kiệm năng lượng cho MCU"
+    },
+    {
+      "id": "q11",
+      "type": "dieu_kien",
+      "split": "dev",
+      "question": "Thiết bị giữ trạng thái reset trong điều kiện điện áp VDD như thế nào?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 16,
+      "evidence_quote": "in reset mode when VDD is below a specified threshold, VPOR/PDR, without the need for an external reset circuit.",
+      "expected_answer": "Khi VDD dưới ngưỡng VPOR/PDR"
+    },
+    {
+      "id": "q12",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Chức năng PVD tích hợp trong STM32F103xx giám sát nguồn cung cấp nào?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 16,
+      "evidence_quote": "The device features an embedded programmable voltage detector (PVD) that monitors the VDD/VDDA power supply",
+      "expected_answer": "Giám sát nguồn VDD/VDDA và so sánh với ngưỡng VPVD"
+    },
+    {
+      "id": "q13",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Bộ điều khiển DMA 7 kênh của STM32F103xx hỗ trợ những chế độ truyền dữ liệu nào?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 17,
+      "evidence_quote": "The flexible 7-channel general-purpose DMA is able to manage memory-to-memory, peripheral-to-memory and memory-to-peripheral transfers.",
+      "expected_answer": "Quản lý truyền memory-to-memory, peripheral-to-memory và memory-to-peripheral",
+      "filters": {
+        "family": "STM32F1"
+      }
+    },
+    {
+      "id": "q14",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Bộ điều khiển DMA có hỗ trợ quản lý bộ đệm vòng tròn không?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 17,
+      "evidence_quote": "The DMA controller supports circular buffer management",
+      "expected_answer": "Có, DMA controller hỗ trợ quản lý circular buffer"
+    },
+    {
+      "id": "q15",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "Timer điều khiển nâng cao TIM1 có thể được coi như bộ phát PWM mấy pha?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 18,
+      "evidence_quote": "The advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6 channels.",
+      "expected_answer": "Phát PWM ba pha ghép kênh trên 6 kênh"
+    },
+    {
+      "id": "q16",
+      "type": "truc_tiep",
+      "split": "test",
+      "question": "SysTick timer trên vi điều khiển STM32F103xx chủ yếu được dành riêng cho mục đích gì?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 19,
+      "evidence_quote": "This timer is dedicated for OS, but can be used also as a standard downcounter.",
+      "expected_answer": "Dành riêng cho hệ điều hành (OS), nhưng cũng dùng được như bộ đếm lùi tiêu chuẩn",
+      "filters": {
+        "device": "STM32F103C8"
+      }
+    },
+    {
+      "id": "q17",
+      "type": "truc_tiep",
+      "split": "test",
+      "question": "Bằng phần mềm, các chân GPIO của vi điều khiển có thể được cấu hình ở những chế độ ngõ ra nào?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 20,
+      "evidence_quote": "Each of the GPIO pins can be configured by software as output (push-pull or open-drain)",
+      "expected_answer": "Ngõ ra push-pull hoặc open-drain"
+    },
+    {
+      "id": "q18",
+      "type": "truc_tiep",
+      "split": "test",
+      "question": "Bảng 5 trong tài liệu định nghĩa chân của dòng vi điều khiển nào?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 28,
+      "evidence_quote": "Table 5. Medium-density STM32F103xx pin definitions",
+      "expected_answer": "Định nghĩa chân cho dòng STM32F103xx medium-density"
+    },
+    {
+      "id": "q19",
+      "type": "truc_tiep",
+      "split": "test",
+      "question": "Sơ đồ bản đồ bộ nhớ (Memory map) của vi điều khiển được thể hiện ở hình số mấy?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 34,
+      "evidence_quote": "Figure 11. Memory map",
+      "expected_answer": "Hình 11 (Figure 11)"
+    },
+    {
+      "id": "q20",
+      "type": "dieu_kien",
+      "split": "test",
+      "question": "Trong các điều kiện tham số điện, trừ khi có quy định khác thì tất cả điện áp đều được tham chiếu theo mốc nào?",
+      "gold_source_id": "stm32f103c8",
+      "gold_page": 35,
+      "evidence_quote": "Unless otherwise specified, all voltages are referenced to VSS.",
+      "expected_answer": "Tất cả điện áp đều tham chiếu theo VSS"
+    }
+  ]
+}
