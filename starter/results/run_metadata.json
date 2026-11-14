@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-14T02:36:49.750952+00:00",
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimensions": 384,
+  "vector_store": "PostgreSQL + pgvector",
+  "distance_metric": "cosine",
+  "top_k": 3,
+  "corpus_directory": "D:\\Con_Trai\\AIThucChien\\K5-L3A-Day06-NguyenDucTrong-2A202603367-DataIngestionEngineering\\data",
+  "benchmark_path": "D:\\Con_Trai\\AIThucChien\\K5-L3A-Day06-NguyenDucTrong-2A202603367-DataIngestionEngineering\\data\\benchmark.json",
+  "document_report": [
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "path": "D:\\Con_Trai\\AIThucChien\\K5-L3A-Day06-NguyenDucTrong-2A202603367-DataIngestionEngineering\\data\\stm32f103c8.pdf",
+      "physical_pages": 114,
+      "selected_content_pages": 35,
+      "empty_selected_pages": 0,
+      "metadata_fields": [
+        "device",
+        "family",
+        "manufacturer"
+      ],
+      "content_pages_were_explicitly_curated": true
+    }
+  ],
+  "content_page_count": 35,
+  "question_count": 20,
+  "split_counts": {
+    "dev": 15,
+    "test": 5
+  },
+  "strategies": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50,
+      "query_filter": false
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "max_size": 500,
+      "query_filter": false
+    },
+    "C": {
+      "chunking": "same as B",
+      "max_size": 500,
+      "query_filter": "only when question supplies filters"
+    }
+  },
+  "human_assessment_required": [
+    "chunk_coherence",
+    "metadata_usefulness",
+    "grounding_quality",
+    "data_strategy_impact_interpretation"
+  ],
+  "estimated_api_cost": 0
+}

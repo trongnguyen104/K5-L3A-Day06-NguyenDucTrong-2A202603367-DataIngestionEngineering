@@ -1,0 +1,59 @@
+{
+  "A": {
+    "chunk_count": 175,
+    "total_characters": 77368,
+    "chunk_length_characters": {
+      "min": 6,
+      "max": 500,
+      "mean": 442.10285714285715,
+      "median": 500,
+      "p95": 500
+    },
+    "total_tokens": 36989,
+    "max_tokens_in_chunk": 419,
+    "model_max_sequence_length": 128,
+    "chunks_over_model_limit": 130,
+    "embedding_seconds": 7.1562,
+    "ingest_seconds": 0.1135,
+    "embedding_reused_from": null,
+    "estimated_api_cost": 0
+  },
+  "B": {
+    "chunk_count": 161,
+    "total_characters": 70487,
+    "chunk_length_characters": {
+      "min": 8,
+      "max": 500,
+      "mean": 437.8074534161491,
+      "median": 500,
+      "p95": 500
+    },
+    "total_tokens": 33541,
+    "max_tokens_in_chunk": 421,
+    "model_max_sequence_length": 128,
+    "chunks_over_model_limit": 117,
+    "embedding_seconds": 6.5631,
+    "ingest_seconds": 0.0816,
+    "embedding_reused_from": null,
+    "estimated_api_cost": 0
+  },
+  "C": {
+    "chunk_count": 161,
+    "total_characters": 70487,
+    "chunk_length_characters": {
+      "min": 8,
+      "max": 500,
+      "mean": 437.8074534161491,
+      "median": 500,
+      "p95": 500
+    },
+    "total_tokens": 33541,
+    "max_tokens_in_chunk": 421,
+    "model_max_sequence_length": 128,
+    "chunks_over_model_limit": 117,
+    "embedding_seconds": 0.0,
+    "ingest_seconds": 0.0976,
+    "embedding_reused_from": "B",
+    "estimated_api_cost": 0
+  }
+}

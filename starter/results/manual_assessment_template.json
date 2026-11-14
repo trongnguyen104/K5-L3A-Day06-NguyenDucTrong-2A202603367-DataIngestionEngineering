@@ -1,0 +1,2588 @@
+{
+  "instructions": {
+    "chunk_coherence": "0=không hiểu do cắt ý; 1=hiểu một phần; 2=tự hiểu được và giữ trọn ý.",
+    "metadata_usefulness": "Đánh dấu complete_and_correct sau khi đối chiếu source/page/metadata với tài liệu gốc.",
+    "grounding_quality": "0=không có bằng chứng; 1=có nhưng thiếu điều kiện/ngữ cảnh; 2=đủ để trả lời và truy nguồn.",
+    "human_review_required": true
+  },
+  "chunk_coherence": [
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 1,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p1_fixed_0",
+            "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_fixed_450",
+            "text": " access\n– Single-cycle multiplic ation and hardware\ndivision\n• Memories\n– 64 or 128 Kbytes of Flash memory\n– 20 Kbytes of SRAM\n• Clock, reset and supply management\n– 2.0 to 3.6 V application supply and I/Os\n– POR, PDR, and programmable voltage\ndetector (PVD)\n– 4 to 16 MHz crystal oscillator\n– Internal 8 MHz factory-trimmed RC\n– Internal 40 kHz RC\n– PLL for CPU clock\n– 32 kHz oscillator for RTC with calibration\n• Low-power\n– Sleep, Stop and Standby modes\n–V BAT supply for RTC and backup registers"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_fixed_900",
+            "text": "y modes\n–V BAT supply for RTC and backup registers\n• 2x 12-bit, 1 µs A/D converters (up to 16\nchannels)\n– Conversion range: 0 to 3.6 V\n– Dual-sample and hold capability\n– Temperature sensor\n• DMA\n– 7-channel DMA controller\n– Peripherals supported: timers, ADC, SPIs,\nI2Cs and USARTs\n• Up to 80 fast I/O ports\n– 26/37/51/80 I/Os, all mappable on 16\nexternal interrupt vectors and almost all\n5 V-tolerant\n• Debug mode:\n– Serial wire debug (SWD) and JTAG\ninterfaces\n• Seven timers\n– Three 16-bit timers,"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_fixed_1350",
+            "text": "G\ninterfaces\n• Seven timers\n– Three 16-bit timers, each with up to\n4 IC/OC/PWM or pulse counter and\nquadrature (incremental) encoder input\n– 16-bit, motor control PWM timer with\ndead-time generation and emergency stop\n– Two watchdog timers (independent and\nwindow)\n– SysTick timer 24-bit downcounter\n• Up to nine communication interfaces\n– Up to two I 2C interfaces (SMBus/PMBus®)\n– Up to three USARTs (ISO 7816 interface,\nLIN, IrDA capability, modem control)\n– Up to two SPIs (18 Mbit/s)\n– CAN inter"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_fixed_1800",
+            "text": " control)\n– Up to two SPIs (18 Mbit/s)\n– CAN interface (2.0B Active)\n– USB 2.0 full-speed interface\n• CRC calculation unit, 96-bit unique ID\n• Packages are ECOPACK®\n\nTable 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_fixed_2250",
+            "text": " × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_0",
+            "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_1",
+            "text": "e\ndivision\n• Memories\n– 64 or 128 Kbytes of Flash memory\n– 20 Kbytes of SRAM\n• Clock, reset and supply management\n– 2.0 to 3.6 V application supply and I/Os\n– POR, PDR, and programmable voltage\ndetector (PVD)\n– 4 to 16 MHz crystal oscillator\n– Internal 8 MHz factory-trimmed RC\n– Internal 40 kHz RC\n– PLL for CPU clock\n– 32 kHz oscillator for RTC with calibration\n• Low-power\n– Sleep, Stop and Standby modes\n–V BAT supply for RTC and backup registers\n• 2x 12-bit, 1 µs A/D converters (up to 16\nchanne"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_2",
+            "text": "ls)\n– Conversion range: 0 to 3.6 V\n– Dual-sample and hold capability\n– Temperature sensor\n• DMA\n– 7-channel DMA controller\n– Peripherals supported: timers, ADC, SPIs,\nI2Cs and USARTs\n• Up to 80 fast I/O ports\n– 26/37/51/80 I/Os, all mappable on 16\nexternal interrupt vectors and almost all\n5 V-tolerant\n• Debug mode:\n– Serial wire debug (SWD) and JTAG\ninterfaces\n• Seven timers\n– Three 16-bit timers, each with up to\n4 IC/OC/PWM or pulse counter and\nquadrature (incremental) encoder input\n– 16-bit, m"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_3",
+            "text": "otor control PWM timer with\ndead-time generation and emergency stop\n– Two watchdog timers (independent and\nwindow)\n– SysTick timer 24-bit downcounter\n• Up to nine communication interfaces\n– Up to two I 2C interfaces (SMBus/PMBus®)\n– Up to three USARTs (ISO 7816 interface,\nLIN, IrDA capability, modem control)\n– Up to two SPIs (18 Mbit/s)\n– CAN interface (2.0B Active)\n– USB 2.0 full-speed interface\n• CRC calculation unit, 96-bit unique ID\n• Packages are ECOPACK®"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_4",
+            "text": "Table 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_0",
+            "text": "This is information on a product in full production.\nSeptember 2023 DS5319 Rev 19 1/114\nSTM32F103x8\nSTM32F103xB\nMedium-density performance line Arm®-based 32-bit MCU with\n64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces\nDatasheet - production data\nFeatures\nIncludes ST state-of-the-art patented\ntechnology\n• Arm® 32-bit Cortex®-M3 CPU core\n– 72 MHz maximum frequency, 1.25\nDMIPS/MHz (Dhrystone 2.1) performance\nat 0 wait state memory access\n– Single-cycle multiplic ation and hardwar"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_1",
+            "text": "e\ndivision\n• Memories\n– 64 or 128 Kbytes of Flash memory\n– 20 Kbytes of SRAM\n• Clock, reset and supply management\n– 2.0 to 3.6 V application supply and I/Os\n– POR, PDR, and programmable voltage\ndetector (PVD)\n– 4 to 16 MHz crystal oscillator\n– Internal 8 MHz factory-trimmed RC\n– Internal 40 kHz RC\n– PLL for CPU clock\n– 32 kHz oscillator for RTC with calibration\n• Low-power\n– Sleep, Stop and Standby modes\n–V BAT supply for RTC and backup registers\n• 2x 12-bit, 1 µs A/D converters (up to 16\nchanne"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_2",
+            "text": "ls)\n– Conversion range: 0 to 3.6 V\n– Dual-sample and hold capability\n– Temperature sensor\n• DMA\n– 7-channel DMA controller\n– Peripherals supported: timers, ADC, SPIs,\nI2Cs and USARTs\n• Up to 80 fast I/O ports\n– 26/37/51/80 I/Os, all mappable on 16\nexternal interrupt vectors and almost all\n5 V-tolerant\n• Debug mode:\n– Serial wire debug (SWD) and JTAG\ninterfaces\n• Seven timers\n– Three 16-bit timers, each with up to\n4 IC/OC/PWM or pulse counter and\nquadrature (incremental) encoder input\n– 16-bit, m"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_3",
+            "text": "otor control PWM timer with\ndead-time generation and emergency stop\n– Two watchdog timers (independent and\nwindow)\n– SysTick timer 24-bit downcounter\n• Up to nine communication interfaces\n– Up to two I 2C interfaces (SMBus/PMBus®)\n– Up to three USARTs (ISO 7816 interface,\nLIN, IrDA capability, modem control)\n– Up to two SPIs (18 Mbit/s)\n– CAN interface (2.0B Active)\n– USB 2.0 full-speed interface\n• CRC calculation unit, 96-bit unique ID\n• Packages are ECOPACK®"
+          },
+          {
+            "chunk_id": "stm32f103c8_p1_paragraph_4",
+            "text": "Table 1. Device summary\nReference Part number\nSTM32F103x8 STM32F103C8, STM32F103R8 STM32F103V8, STM32F103T8\nSTM32F103xB STM32F103RB STM32F103VB, STM32F103CB, STM32F103TB\nBGA100 10 × 10 mm\nUFBGA100 7 x 7 mm\nBGA64 5 × 5 mm\nVFQFPN36 6 × 6 mm\nLQFP100 14 × 14 mm\nLQFP64 10 × 10 mm\nLQFP48 7 × 7 mm\nUFQFPN48 7 × 7 mm\nwww.st.com"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 2,
+      "reason": "Trang 1: Fixed-size bi cat nua tu (hardwar/access); Paragraph giu tron y cac dong feature.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 2
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 2,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p2_fixed_0",
+            "text": "STM32F103x8, STM32F103xB\n2/114 DS5319 Rev 19\n1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2 Description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2.1 Device overview  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10\n2.2 Full compatibility throughout the family . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\n2.3 Overview ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_fixed_450",
+            "text": " . . . . . . . . . . . . . . . . 13\n2.3 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM  . . . . . . . . . . . 14\n2.3.2 Embedded flash memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.3 CRC (cyclic redundancy check) calculation unit  . . . . . . . . . . . . . . . . . . 14\n2.3.4 Embedded SRAM  . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_fixed_900",
+            "text": "  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.5 Nested vectored interrupt controller (NVIC)  . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.6 External interrupt/event controller (EXTI) . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.7 Clocks and startup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.8 Boot modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_fixed_1350",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.9 Power supply schemes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.10 Power supply supervisor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.11 Voltage regulator  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.12 Low-power modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.13 D"
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_fixed_1800",
+            "text": " . . . . . . . . . . . . . . . . . . . 16\n2.3.13 DMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.14 RTC (real-time clock) and backup register s . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.15 Timers and watchdogs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.16 I²C bus  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.17 Universal"
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_fixed_2250",
+            "text": " . . . . . . . . . . . . . . . 19\n2.3.17 Universal synchronous/asynchronous receiver transmitter (USART)  . . 19\n2.3.18 Serial peripheral interface (SPI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.19 Controller area network (CAN) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.20 Universal serial bus (USB) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.21 GPIOs (general-purpose inputs/outputs) . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_fixed_2700",
+            "text": "l-purpose inputs/outputs) . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.22 ADC (analog-to-digital converter) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.23 Temperature sensor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.24 Serial wire JTAG debug port (SWJ-DP) . . . . . . . . . . . . . . . . . . . . . . . . . 20\n3 Pinouts and pin description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\n4 Memory map"
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_fixed_3150",
+            "text": " . . . . . . . . . . . . . . . . . 21\n4 Memory mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34\n5 Electrical characteristi cs  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1 Parameter conditions  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_0",
+            "text": "STM32F103x8, STM32F103xB\n2/114 DS5319 Rev 19\n1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2 Description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2.1 Device overview  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10\n2.2 Full compatibility throughout the family . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\n2.3 Overview ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_1",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM  . . . . . . . . . . . 14\n2.3.2 Embedded flash memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.3 CRC (cyclic redundancy check) calculation unit  . . . . . . . . . . . . . . . . . . 14\n2.3.4 Embedded SRAM  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.5 Nested "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_2",
+            "text": "vectored interrupt controller (NVIC)  . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.6 External interrupt/event controller (EXTI) . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.7 Clocks and startup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.8 Boot modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.9 Power supply schemes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_3",
+            "text": ". . . . . 15\n2.3.10 Power supply supervisor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.11 Voltage regulator  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.12 Low-power modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.13 DMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.14 RTC (real-time clock) and backup "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_4",
+            "text": "register s . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.15 Timers and watchdogs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.16 I²C bus  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.17 Universal synchronous/asynchronous receiver transmitter (USART)  . . 19\n2.3.18 Serial peripheral interface (SPI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.19 Controller area network "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_5",
+            "text": "(CAN) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.20 Universal serial bus (USB) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.21 GPIOs (general-purpose inputs/outputs) . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.22 ADC (analog-to-digital converter) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.23 Temperature sensor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.24 Ser"
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_6",
+            "text": "ial wire JTAG debug port (SWJ-DP) . . . . . . . . . . . . . . . . . . . . . . . . . 20\n3 Pinouts and pin description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\n4 Memory mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34\n5 Electrical characteristi cs  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1 Parameter conditions  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_7",
+            "text": ". . . 35"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_0",
+            "text": "STM32F103x8, STM32F103xB\n2/114 DS5319 Rev 19\n1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2 Description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2.1 Device overview  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10\n2.2 Full compatibility throughout the family . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\n2.3 Overview ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_1",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM  . . . . . . . . . . . 14\n2.3.2 Embedded flash memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.3 CRC (cyclic redundancy check) calculation unit  . . . . . . . . . . . . . . . . . . 14\n2.3.4 Embedded SRAM  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.5 Nested "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_2",
+            "text": "vectored interrupt controller (NVIC)  . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.6 External interrupt/event controller (EXTI) . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.7 Clocks and startup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.8 Boot modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.9 Power supply schemes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_3",
+            "text": ". . . . . 15\n2.3.10 Power supply supervisor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.11 Voltage regulator  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.12 Low-power modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.13 DMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.14 RTC (real-time clock) and backup "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_4",
+            "text": "register s . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.15 Timers and watchdogs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.16 I²C bus  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.17 Universal synchronous/asynchronous receiver transmitter (USART)  . . 19\n2.3.18 Serial peripheral interface (SPI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.19 Controller area network "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_5",
+            "text": "(CAN) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.20 Universal serial bus (USB) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2.3.21 GPIOs (general-purpose inputs/outputs) . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.22 ADC (analog-to-digital converter) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.23 Temperature sensor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.3.24 Ser"
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_6",
+            "text": "ial wire JTAG debug port (SWJ-DP) . . . . . . . . . . . . . . . . . . . . . . . . . 20\n3 Pinouts and pin description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\n4 Memory mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34\n5 Electrical characteristi cs  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1 Parameter conditions  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p2_paragraph_7",
+            "text": ". . . 35"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 2,
+      "reason": "Trang 2: Fixed-size cat ngang qua danh sach muc luc; Paragraph tach khoi dau muc ro rang.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 2
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 3,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_0",
+            "text": "DS5319 Rev 19 3/114\nSTM32F103x8, STM32F103xB\n4\n5.1.1 Minimum and maximum values  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.2 Typical values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.3 Typical curves  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.4 Loading capacitor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.5 Pin input "
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_450",
+            "text": " . . . . . . . . . . . . . . . 35\n5.1.5 Pin input voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.6 Power supply scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.1.7 Current consumption measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.2 Absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\n5.3 Operating conditions . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_900",
+            "text": " 37\n5.3 Operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\n5.3.1 General operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\n5.3.2 Operating conditions at power-up / power- down  . . . . . . . . . . . . . . . . . . 39\n5.3.3 Embedded reset and power control block characteristics  . . . . . . . . . . . 39\n5.3.4 Embedded reference voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40\n"
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_1350",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . 40\n5.3.5 Supply current characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40\n5.3.6 External clock source characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\n5.3.7 Internal clock source characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\n5.3.8 PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.9 Memory characteristics  ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_1800",
+            "text": ". . . . . . . . 56\n5.3.9 Memory characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.10 EMC characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57\n5.3.11 Absolute maximum ratings (electrical sensitivity) . . . . . . . . . . . . . . . . . . 59\n5.3.12 I/O current injection characte ristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60\n5.3.13 I/O port characteristics . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_2250",
+            "text": "ort characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61\n5.3.14 NRST pin characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66\n5.3.15 TIM timer characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67\n5.3.16 Communications interfaces  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68\n5.3.17 CAN (controller area network) interface . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_2700",
+            "text": "etwork) interface . . . . . . . . . . . . . . . . . . . . . . . . . 73\n5.3.18 12-bit ADC characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74\n5.3.19 Temperature sensor characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78\n6 Package information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79\n6.1 Device marking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79\n6.2"
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_3150",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . 79\n6.2 VFQFPN36 package information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80\n6.3 UFQFPN48 package information (A0B9) . . . . . . . . . . . . . . . . . . . . . . . . . 83\n6.4 LFBGA100 package information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\n6.5 LQFP100 package information (1L)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87\n6.6 UFBGA100 package information (A0C2)  . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_fixed_3600",
+            "text": " package information (A0C2)  . . . . . . . . . . . . . . . . . . . . . . . . . 90"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_0",
+            "text": "DS5319 Rev 19 3/114\nSTM32F103x8, STM32F103xB\n4\n5.1.1 Minimum and maximum values  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.2 Typical values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.3 Typical curves  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.4 Loading capacitor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.5 Pin input "
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_1",
+            "text": "voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.6 Power supply scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.1.7 Current consumption measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.2 Absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\n5.3 Operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_2",
+            "text": " . . . . . 38\n5.3.1 General operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\n5.3.2 Operating conditions at power-up / power- down  . . . . . . . . . . . . . . . . . . 39\n5.3.3 Embedded reset and power control block characteristics  . . . . . . . . . . . 39\n5.3.4 Embedded reference voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40\n5.3.5 Supply current characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_3",
+            "text": ". 40\n5.3.6 External clock source characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\n5.3.7 Internal clock source characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\n5.3.8 PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.9 Memory characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.10 EMC characteristics . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_4",
+            "text": " . . . . . . . . . . . . . . . . 57\n5.3.11 Absolute maximum ratings (electrical sensitivity) . . . . . . . . . . . . . . . . . . 59\n5.3.12 I/O current injection characte ristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60\n5.3.13 I/O port characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61\n5.3.14 NRST pin characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66\n5.3.15 TIM timer characteristics  . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_5",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67\n5.3.16 Communications interfaces  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68\n5.3.17 CAN (controller area network) interface . . . . . . . . . . . . . . . . . . . . . . . . . 73\n5.3.18 12-bit ADC characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74\n5.3.19 Temperature sensor characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78\n6 Package informatio"
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_6",
+            "text": "n . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79\n6.1 Device marking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79\n6.2 VFQFPN36 package information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80\n6.3 UFQFPN48 package information (A0B9) . . . . . . . . . . . . . . . . . . . . . . . . . 83\n6.4 LFBGA100 package information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\n6.5 LQFP100"
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_7",
+            "text": " package information (1L)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87\n6.6 UFBGA100 package information (A0C2)  . . . . . . . . . . . . . . . . . . . . . . . . . 90"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_0",
+            "text": "DS5319 Rev 19 3/114\nSTM32F103x8, STM32F103xB\n4\n5.1.1 Minimum and maximum values  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.2 Typical values . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.3 Typical curves  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.4 Loading capacitor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.5 Pin input "
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_1",
+            "text": "voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.6 Power supply scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.1.7 Current consumption measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.2 Absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\n5.3 Operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_2",
+            "text": " . . . . . 38\n5.3.1 General operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\n5.3.2 Operating conditions at power-up / power- down  . . . . . . . . . . . . . . . . . . 39\n5.3.3 Embedded reset and power control block characteristics  . . . . . . . . . . . 39\n5.3.4 Embedded reference voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40\n5.3.5 Supply current characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_3",
+            "text": ". 40\n5.3.6 External clock source characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\n5.3.7 Internal clock source characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\n5.3.8 PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.9 Memory characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.10 EMC characteristics . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_4",
+            "text": " . . . . . . . . . . . . . . . . 57\n5.3.11 Absolute maximum ratings (electrical sensitivity) . . . . . . . . . . . . . . . . . . 59\n5.3.12 I/O current injection characte ristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60\n5.3.13 I/O port characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61\n5.3.14 NRST pin characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66\n5.3.15 TIM timer characteristics  . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_5",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67\n5.3.16 Communications interfaces  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68\n5.3.17 CAN (controller area network) interface . . . . . . . . . . . . . . . . . . . . . . . . . 73\n5.3.18 12-bit ADC characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74\n5.3.19 Temperature sensor characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78\n6 Package informatio"
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_6",
+            "text": "n . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79\n6.1 Device marking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79\n6.2 VFQFPN36 package information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80\n6.3 UFQFPN48 package information (A0B9) . . . . . . . . . . . . . . . . . . . . . . . . . 83\n6.4 LFBGA100 package information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\n6.5 LQFP100"
+          },
+          {
+            "chunk_id": "stm32f103c8_p3_paragraph_7",
+            "text": " package information (1L)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87\n6.6 UFBGA100 package information (A0C2)  . . . . . . . . . . . . . . . . . . . . . . . . . 90"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 1,
+      "reason": "Trang 3: Muc luc tiep tuc bi ngat quang giua chung o ca 2 cach.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 1
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 4,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p4_fixed_0",
+            "text": "STM32F103x8, STM32F103xB\n4/114 DS5319 Rev 19\n6.7 LQFP64 package information (5W)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\n6.8 TFBGA64 package information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96\n6.9 LQFP48 package information (5B) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98\n6.10 Thermal characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\n6.10.1 Reference document  . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p4_fixed_450",
+            "text": "\n6.10.1 Reference document  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\n6.10.2 Selecting the product temperature range . . . . . . . . . . . . . . . . . . . . . . . 102\n7 Ordering information scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104\n8 Important security notice . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105\n9 Revision history  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p4_fixed_900",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p4_paragraph_0",
+            "text": "STM32F103x8, STM32F103xB\n4/114 DS5319 Rev 19\n6.7 LQFP64 package information (5W)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\n6.8 TFBGA64 package information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96\n6.9 LQFP48 package information (5B) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98\n6.10 Thermal characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\n6.10.1 Reference document  . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p4_paragraph_1",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 101\n6.10.2 Selecting the product temperature range . . . . . . . . . . . . . . . . . . . . . . . 102\n7 Ordering information scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104\n8 Important security notice . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105\n9 Revision history  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p4_paragraph_0",
+            "text": "STM32F103x8, STM32F103xB\n4/114 DS5319 Rev 19\n6.7 LQFP64 package information (5W)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\n6.8 TFBGA64 package information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96\n6.9 LQFP48 package information (5B) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98\n6.10 Thermal characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\n6.10.1 Reference document  . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p4_paragraph_1",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . 101\n6.10.2 Selecting the product temperature range . . . . . . . . . . . . . . . . . . . . . . . 102\n7 Ordering information scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104\n8 Important security notice . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105\n9 Revision history  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 2,
+      "reason": "Trang 4: Fixed-size bi ngat giua dong package outline; Paragraph giu tron dong.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 2
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 5,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_0",
+            "text": "DS5319 Rev 19 5/114\nSTM32F103x8, STM32F103xB List of tables\n6\nList of tables\nTable 1. Device summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 1\nTable 2. STM32F103xx medium-density device features and peripheral counts . . . . . . . . . . . . . . . 10\nTable 3. STM32F103xx family  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\nTable 4. Timer feature comparison. "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_450",
+            "text": ". . . . . . 13\nTable 4. Timer feature comparison. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\nTable 5. Medium-density STM32F103xx pin definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28\nTable 6. Voltage characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . 37\nTable 7. Current characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_900",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . 37\nTable 8. Thermal characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\nTable 9. General operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\nTable 10. Operating conditions at power-up / power-down  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_1350",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . 39\nTable 11. Embedded reset and power control block characterist ics. . . . . . . . . . . . . . . . . . . . . . . . . . 39\nTable 12. Embedded internal reference voltage. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 0\nTable 13. Maximum current consumption in Run mode, code with data processing\nrunning from Flash . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_1800",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nTable 14. Maximum current consumption in Run mode, code with data processing\nrunning from RAM. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nTable 15. Maximum current consumption in Sleep mode, code running\nfrom Flash or RAM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  43\nTable 16. Typical and maximum "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_2250",
+            "text": ". . . . . . . .  43\nTable 16. Typical and maximum current consumptions in  Stop and Standby modes  . . . . . . . . . . . . 44\nTable 17. Typical current consumption in  Run mode, code with data processing\nrunning from Flash . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\nTable 18. Typical current consumption in Sleep mode, code running\nfrom Flash or RAM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_2700",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  48\nTable 19. Peripheral current consumption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49\nTable 20. High-speed external user clock characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nTable 21. Low-speed external user clock characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nTable 22. HSE 4-16 MHz oscil"
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_3150",
+            "text": " . . . . . . . . . 51\nTable 22. HSE 4-16 MHz oscillator characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 2\nTable 23. LSE oscillator characteristics (f LSE = 32.768 kHz) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53\nTable 24. HSI oscillator characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\nTable 25. LSI oscillator characteristics  . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_3600",
+            "text": "teristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55\nTable 26. Low-power mode wakeup timings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 27. PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 56\nTable 28. Flash memory characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_4050",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 29. Flash memory endurance and data  retention . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57\nTable 30. EMS characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58\nTable 31. EMI characteristics for fHSE = 8 MHz and fHCLK = 48 MHz . . . . . . . . . . . . . . . . . . . . . . . 58\nTable 32. EMI characteristics for fHSE = 8 MHz an"
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_4500",
+            "text": "\nTable 32. EMI characteristics for fHSE = 8 MHz and fHCLK = 72 MHz . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 33. ESD absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 34. Electrical sensitivities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 59\nTable 35. I/O current injection susceptibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_4950",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60\nTable 36. I/O static characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 61\nTable 37. Output voltage characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 64\nTable 38. I/O AC characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_5400",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . 65\nTable 39. NRST pin characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . 66\nTable 40. TIMx characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 67\nTable 41. I 2C characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68\nTable 42. SCL freq"
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_fixed_5850",
+            "text": " . . . . . . . . . . . . . . 68\nTable 42. SCL frequency (f PCLK1 = 36 MHz, VDD_I2C = 3.3 V). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69\nTable 43. SPI characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_0",
+            "text": "DS5319 Rev 19 5/114\nSTM32F103x8, STM32F103xB List of tables\n6\nList of tables\nTable 1. Device summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 1\nTable 2. STM32F103xx medium-density device features and peripheral counts . . . . . . . . . . . . . . . 10\nTable 3. STM32F103xx family  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\nTable 4. Timer feature comparison. "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_1",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\nTable 5. Medium-density STM32F103xx pin definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28\nTable 6. Voltage characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . 37\nTable 7. Current characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_2",
+            "text": " . 37\nTable 8. Thermal characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\nTable 9. General operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\nTable 10. Operating conditions at power-up / power-down  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39\nTable 11. Embedded reset and power control block characterist ics. . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_3",
+            "text": " . . . . . . . . . . 39\nTable 12. Embedded internal reference voltage. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 0\nTable 13. Maximum current consumption in Run mode, code with data processing\nrunning from Flash . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nTable 14. Maximum current consumption in Run mode, code with data processing\nrunning from RAM. . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_4",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nTable 15. Maximum current consumption in Sleep mode, code running\nfrom Flash or RAM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  43\nTable 16. Typical and maximum current consumptions in  Stop and Standby modes  . . . . . . . . . . . . 44\nTable 17. Typical current consumption in  Run mode, code with data processing\nrunning from Flash . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_5",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\nTable 18. Typical current consumption in Sleep mode, code running\nfrom Flash or RAM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  48\nTable 19. Peripheral current consumption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49\nTable 20. High-speed external user clock characteristics. . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_6",
+            "text": ". . . . . . . . . . . . . . . . . . . . . 50\nTable 21. Low-speed external user clock characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nTable 22. HSE 4-16 MHz oscillator characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 2\nTable 23. LSE oscillator characteristics (f LSE = 32.768 kHz) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53\nTable 24. HSI oscillator characteristics. . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_7",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\nTable 25. LSI oscillator characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55\nTable 26. Low-power mode wakeup timings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 27. PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 56\nTable 28. Flash me"
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_8",
+            "text": "mory characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 29. Flash memory endurance and data  retention . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57\nTable 30. EMS characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58\nTable 31. EMI characteristics for fHSE = 8 MHz and fHCLK = 48 MHz . . . . . . . . . . . . . . . . . . . . . . . 58"
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_9",
+            "text": "\nTable 32. EMI characteristics for fHSE = 8 MHz and fHCLK = 72 MHz . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 33. ESD absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 34. Electrical sensitivities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 59\nTable 35. I/O current injection susceptibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_10",
+            "text": ". . . . . . . . . . . . . . 60\nTable 36. I/O static characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 61\nTable 37. Output voltage characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 64\nTable 38. I/O AC characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65\nTable 39. NRST pin characteristics  . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_11",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . 66\nTable 40. TIMx characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 67\nTable 41. I 2C characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68\nTable 42. SCL frequency (f PCLK1 = 36 MHz, VDD_I2C = 3.3 V). . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_12",
+            "text": " 69\nTable 43. SPI characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_0",
+            "text": "DS5319 Rev 19 5/114\nSTM32F103x8, STM32F103xB List of tables\n6\nList of tables\nTable 1. Device summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 1\nTable 2. STM32F103xx medium-density device features and peripheral counts . . . . . . . . . . . . . . . 10\nTable 3. STM32F103xx family  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\nTable 4. Timer feature comparison. "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_1",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\nTable 5. Medium-density STM32F103xx pin definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28\nTable 6. Voltage characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . 37\nTable 7. Current characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_2",
+            "text": " . 37\nTable 8. Thermal characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\nTable 9. General operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\nTable 10. Operating conditions at power-up / power-down  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39\nTable 11. Embedded reset and power control block characterist ics. . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_3",
+            "text": " . . . . . . . . . . 39\nTable 12. Embedded internal reference voltage. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 0\nTable 13. Maximum current consumption in Run mode, code with data processing\nrunning from Flash . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nTable 14. Maximum current consumption in Run mode, code with data processing\nrunning from RAM. . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_4",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nTable 15. Maximum current consumption in Sleep mode, code running\nfrom Flash or RAM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  43\nTable 16. Typical and maximum current consumptions in  Stop and Standby modes  . . . . . . . . . . . . 44\nTable 17. Typical current consumption in  Run mode, code with data processing\nrunning from Flash . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_5",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\nTable 18. Typical current consumption in Sleep mode, code running\nfrom Flash or RAM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  48\nTable 19. Peripheral current consumption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49\nTable 20. High-speed external user clock characteristics. . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_6",
+            "text": ". . . . . . . . . . . . . . . . . . . . . 50\nTable 21. Low-speed external user clock characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nTable 22. HSE 4-16 MHz oscillator characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 2\nTable 23. LSE oscillator characteristics (f LSE = 32.768 kHz) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53\nTable 24. HSI oscillator characteristics. . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_7",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\nTable 25. LSI oscillator characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55\nTable 26. Low-power mode wakeup timings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 27. PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 56\nTable 28. Flash me"
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_8",
+            "text": "mory characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 29. Flash memory endurance and data  retention . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57\nTable 30. EMS characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58\nTable 31. EMI characteristics for fHSE = 8 MHz and fHCLK = 48 MHz . . . . . . . . . . . . . . . . . . . . . . . 58"
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_9",
+            "text": "\nTable 32. EMI characteristics for fHSE = 8 MHz and fHCLK = 72 MHz . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 33. ESD absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59\nTable 34. Electrical sensitivities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 59\nTable 35. I/O current injection susceptibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_10",
+            "text": ". . . . . . . . . . . . . . 60\nTable 36. I/O static characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 61\nTable 37. Output voltage characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 64\nTable 38. I/O AC characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65\nTable 39. NRST pin characteristics  . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_11",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . 66\nTable 40. TIMx characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 67\nTable 41. I 2C characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68\nTable 42. SCL frequency (f PCLK1 = 36 MHz, VDD_I2C = 3.3 V). . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p5_paragraph_12",
+            "text": " 69\nTable 43. SPI characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 1,
+      "reason": "Trang 5: Bang danh sach Table bi ngat giua cac dong.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 1
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 6,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p6_fixed_0",
+            "text": "List of tables STM32F103x8, STM32F103xB\n6/114 DS5319 Rev 19\nTable 44. USB startup time. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72\nTable 45. USB DC electrical characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nTable 46. USB: Full-speed electrical characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nTable 47. ADC characteristics  "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_fixed_450",
+            "text": ". . . . . . . . 73\nTable 47. ADC characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74\nTable 48. R AIN max for fADC = 14 MHz. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75\nTable 49. ADC accuracy - Limited test conditi ons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 5\nTable 50. ADC accuracy  . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_fixed_900",
+            "text": "y  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76\nTable 51. TS characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78\nTable 52. VFQFPN - 36 pin, 6x6 mm, 0.5 mm pi tch very thin profile fine pitch quad flat\npackage mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81\nTable 53. UFQFPN48 "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_fixed_1350",
+            "text": ". . . . . . . . . . . . . . 81\nTable 53. UFQFPN48 – Mechanical data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84\nTable 54. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\nTable 55. LFBGA100 recommended PCB design rules (0.8 mm  pitch BGA). . . . . . . . . . . . . . . . . . . 86\nTable 56. LQFP100 - Mechanical"
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_fixed_1800",
+            "text": " . . . . . . . . 86\nTable 56. LQFP100 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 88\nTable 57. UFBGA100 - Mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91\nTable 58. UFBGA100 - Example of PCB design rules (0.5 mm  pitch BGA). . . . . . . . . . . . . . . . . . . . 92\nTable 59. LQFP64 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_fixed_2250",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94\nTable 60. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch, thin profile fine pitch ball grid array\npackage mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96\nTable 61. TFBGA64 recommended PCB design rules (0.5 mm pitch BGA). . . . . . . . . . . . . . . . . . . . 97\nTable 62. LQFP48 – Mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_fixed_2700",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 99\nTable 63. Package thermal characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\nTable 64. Document revision history  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_0",
+            "text": "List of tables STM32F103x8, STM32F103xB\n6/114 DS5319 Rev 19\nTable 44. USB startup time. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72\nTable 45. USB DC electrical characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nTable 46. USB: Full-speed electrical characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nTable 47. ADC characteristics  "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_1",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74\nTable 48. R AIN max for fADC = 14 MHz. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75\nTable 49. ADC accuracy - Limited test conditi ons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 5\nTable 50. ADC accuracy  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_2",
+            "text": " . . . . . . . . . 76\nTable 51. TS characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78\nTable 52. VFQFPN - 36 pin, 6x6 mm, 0.5 mm pi tch very thin profile fine pitch quad flat\npackage mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81\nTable 53. UFQFPN48 – Mechanical data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_3",
+            "text": " . . . . 84\nTable 54. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\nTable 55. LFBGA100 recommended PCB design rules (0.8 mm  pitch BGA). . . . . . . . . . . . . . . . . . . 86\nTable 56. LQFP100 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 88\nTable 57. UFBGA100 - Mechanical data  . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_4",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91\nTable 58. UFBGA100 - Example of PCB design rules (0.5 mm  pitch BGA). . . . . . . . . . . . . . . . . . . . 92\nTable 59. LQFP64 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94\nTable 60. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch, thin profile fine pitch ball grid array\npackage mechanical data . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_5",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . 96\nTable 61. TFBGA64 recommended PCB design rules (0.5 mm pitch BGA). . . . . . . . . . . . . . . . . . . . 97\nTable 62. LQFP48 – Mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 99\nTable 63. Package thermal characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\nTable 64. Document revision history  . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_6",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_0",
+            "text": "List of tables STM32F103x8, STM32F103xB\n6/114 DS5319 Rev 19\nTable 44. USB startup time. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72\nTable 45. USB DC electrical characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nTable 46. USB: Full-speed electrical characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nTable 47. ADC characteristics  "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_1",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74\nTable 48. R AIN max for fADC = 14 MHz. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75\nTable 49. ADC accuracy - Limited test conditi ons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 5\nTable 50. ADC accuracy  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_2",
+            "text": " . . . . . . . . . 76\nTable 51. TS characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78\nTable 52. VFQFPN - 36 pin, 6x6 mm, 0.5 mm pi tch very thin profile fine pitch quad flat\npackage mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81\nTable 53. UFQFPN48 – Mechanical data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_3",
+            "text": " . . . . 84\nTable 54. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\nTable 55. LFBGA100 recommended PCB design rules (0.8 mm  pitch BGA). . . . . . . . . . . . . . . . . . . 86\nTable 56. LQFP100 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 88\nTable 57. UFBGA100 - Mechanical data  . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_4",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91\nTable 58. UFBGA100 - Example of PCB design rules (0.5 mm  pitch BGA). . . . . . . . . . . . . . . . . . . . 92\nTable 59. LQFP64 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94\nTable 60. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch, thin profile fine pitch ball grid array\npackage mechanical data . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_5",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . 96\nTable 61. TFBGA64 recommended PCB design rules (0.5 mm pitch BGA). . . . . . . . . . . . . . . . . . . . 97\nTable 62. LQFP48 – Mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 99\nTable 63. Package thermal characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\nTable 64. Document revision history  . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p6_paragraph_6",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 2,
+      "reason": "Trang 6: Danh sach tiep tuc duoc Paragraph chia theo khoi ngan gon.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 2
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 7,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_0",
+            "text": "DS5319 Rev 19 7/114\nSTM32F103x8, STM32F103xB List of figures\n8\nList of figures\nFigure 1. STM32F103xx performance line block diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\nFigure 2. Clock tree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . 12\nFigure 3. STM32F103xx performance line LFBGA100 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\nFigure 4. STM32F103xx performanc"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_450",
+            "text": " . . . . . . . 21\nFigure 4. STM32F103xx performance line LQFP100 pinout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22\nFigure 5. STM32F103xx performance line UFBGA100 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\nFigure 6. STM32F103xx performance line LQFP64 pinout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\nFigure 7. STM32F103xx performance line TFBGA64 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\nFigure "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_900",
+            "text": ". . . . . . . . . . . . . . . . . . . . 25\nFigure 8. STM32F103xx performance line LQFP48 pinout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\nFigure 9. STM32F103xx performance line UFQFPN48 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\nFigure 10. STM32F103xx performance line VFQFPN36 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27\nFigure 11. Memory map. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_1350",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 34\nFigure 12. Pin loading conditions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 35\nFigure 13. Pin input voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\nFigure 14. Power supply scheme. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_1800",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\nFigure 15. Current consumption measurement scheme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\nFigure 16. Typical current consumption in  Run mode versus frequency (at 3.6 V),\ncode with data processing running from RAM, peripherals enabled. . . . . . . . . . . . . . . . . . 42\nFigure 17. Typical current consumption in  Run mode versus frequency (at 3.6 V),\ncode with data processing running from RAM"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_2250",
+            "text": "3.6 V),\ncode with data processing running from RAM, peripherals disabled . . . . . . . . . . . . . . . . . 42\nFigure 18. Typical current consumption on V BAT (RTC on) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44\nFigure 19. Typical current consumption in Stop mode, wit h regulator in Run mode . . . . . . . . . . . . . . 45\nFigure 20. Typical current consumption in Stop mode, with regulator in Low-power mode. . . . . . . . . 45\nFigure 21. Typical current consumption in Stan"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_2700",
+            "text": " 45\nFigure 21. Typical current consumption in Standby mode. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nFigure 22. High-speed external clock source AC timing diagra m  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nFigure 23. Low-speed external clock source AC timing diagram.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52\nFigure 24. Typical application with an 8 MHz crystal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_3150",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . 53\nFigure 25. Typical application with a 32.768 kHz crystal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\nFigure 26. Standard I/O input characterist ics - CMOS port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62\nFigure 27. Standard I/O input characteristics - TTL port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 2\nFigure 28. 5 V tolerant I/O inpu t characteristics - CM"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_3600",
+            "text": "e 28. 5 V tolerant I/O inpu t characteristics - CMOS port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63\nFigure 29. 5 V tolerant I/O inpu t characteristics - TTL port  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63\nFigure 30. I/O AC characteristics definition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66\nFigure 31. Recommended NRST pin protection  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_4050",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67\nFigure 32. I 2C bus AC waveforms and measurement circuit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69\nFigure 33. SPI timing diagram - slave mode and CPHA = 0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71\nFigure 34. SPI timing diagram - slave mode and CPHA = 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71\nFigure 35. SPI timing diagram - master mode . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_4500",
+            "text": "5. SPI timing diagram - master mode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72\nFigure 36. USB timings: definition of data signal rise and fa ll time  . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nFigure 37. ADC accuracy characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76\nFigure 38. Typical connection diagram using the ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_4950",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77\nFigure 39. Power supply and reference decoupling (V REF+ not connected to VDDA). . . . . . . . . . . . . . 77\nFigure 40. Power supply and reference decoupling (V REF+ connected to VDDA). . . . . . . . . . . . . . . . . 78\nFigure 41. VFQFPN - 36 pin, 6x6 mm, 0.5 mm pi tch very thin profile fine pitch quad flat\npackage outline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_5400",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80\nFigure 42. VFQFPN - 36 pin, 6x6 mm, 0.5 mm pi tch very thin profile fine pitch quad flat\npackage recommended footprint  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82\nFigure 43. UFQFPN48 – Outline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83\nFigure 44. UFQFPN48 – Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_fixed_5850",
+            "text": "  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_0",
+            "text": "DS5319 Rev 19 7/114\nSTM32F103x8, STM32F103xB List of figures\n8\nList of figures\nFigure 1. STM32F103xx performance line block diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\nFigure 2. Clock tree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . 12\nFigure 3. STM32F103xx performance line LFBGA100 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\nFigure 4. STM32F103xx performanc"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_1",
+            "text": "e line LQFP100 pinout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22\nFigure 5. STM32F103xx performance line UFBGA100 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\nFigure 6. STM32F103xx performance line LQFP64 pinout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\nFigure 7. STM32F103xx performance line TFBGA64 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\nFigure 8. STM32F103xx performance line LQFP48 pinout . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_2",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\nFigure 9. STM32F103xx performance line UFQFPN48 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\nFigure 10. STM32F103xx performance line VFQFPN36 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27\nFigure 11. Memory map. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 34\nFigure 12. Pin loading conditions. . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_3",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 35\nFigure 13. Pin input voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\nFigure 14. Power supply scheme. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\nFigure 15. Current consumption measurement scheme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\nFigure"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_4",
+            "text": " 16. Typical current consumption in  Run mode versus frequency (at 3.6 V),\ncode with data processing running from RAM, peripherals enabled. . . . . . . . . . . . . . . . . . 42\nFigure 17. Typical current consumption in  Run mode versus frequency (at 3.6 V),\ncode with data processing running from RAM, peripherals disabled . . . . . . . . . . . . . . . . . 42\nFigure 18. Typical current consumption on V BAT (RTC on) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44\nFigure 19. Typ"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_5",
+            "text": "ical current consumption in Stop mode, wit h regulator in Run mode . . . . . . . . . . . . . . 45\nFigure 20. Typical current consumption in Stop mode, with regulator in Low-power mode. . . . . . . . . 45\nFigure 21. Typical current consumption in Standby mode. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nFigure 22. High-speed external clock source AC timing diagra m  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nFigure 23. Low-speed external clock source AC ti"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_6",
+            "text": "ming diagram.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52\nFigure 24. Typical application with an 8 MHz crystal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53\nFigure 25. Typical application with a 32.768 kHz crystal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\nFigure 26. Standard I/O input characterist ics - CMOS port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62\nFigure 27. Standard I/O input charac"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_7",
+            "text": "teristics - TTL port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 2\nFigure 28. 5 V tolerant I/O inpu t characteristics - CMOS port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63\nFigure 29. 5 V tolerant I/O inpu t characteristics - TTL port  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63\nFigure 30. I/O AC characteristics definition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66\nFigure "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_8",
+            "text": "31. Recommended NRST pin protection  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67\nFigure 32. I 2C bus AC waveforms and measurement circuit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69\nFigure 33. SPI timing diagram - slave mode and CPHA = 0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71\nFigure 34. SPI timing diagram - slave mode and CPHA = 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71\nFigure 3"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_9",
+            "text": "5. SPI timing diagram - master mode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72\nFigure 36. USB timings: definition of data signal rise and fa ll time  . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nFigure 37. ADC accuracy characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76\nFigure 38. Typical connection diagram using the ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_10",
+            "text": " . . . . . . 77\nFigure 39. Power supply and reference decoupling (V REF+ not connected to VDDA). . . . . . . . . . . . . . 77\nFigure 40. Power supply and reference decoupling (V REF+ connected to VDDA). . . . . . . . . . . . . . . . . 78\nFigure 41. VFQFPN - 36 pin, 6x6 mm, 0.5 mm pi tch very thin profile fine pitch quad flat\npackage outline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80\nFigure 42. VFQFPN - 36 pin, 6x6 mm, 0.5"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_11",
+            "text": " mm pi tch very thin profile fine pitch quad flat\npackage recommended footprint  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82\nFigure 43. UFQFPN48 – Outline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83\nFigure 44. UFQFPN48 – Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_0",
+            "text": "DS5319 Rev 19 7/114\nSTM32F103x8, STM32F103xB List of figures\n8\nList of figures\nFigure 1. STM32F103xx performance line block diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\nFigure 2. Clock tree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . 12\nFigure 3. STM32F103xx performance line LFBGA100 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\nFigure 4. STM32F103xx performanc"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_1",
+            "text": "e line LQFP100 pinout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22\nFigure 5. STM32F103xx performance line UFBGA100 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\nFigure 6. STM32F103xx performance line LQFP64 pinout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\nFigure 7. STM32F103xx performance line TFBGA64 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\nFigure 8. STM32F103xx performance line LQFP48 pinout . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_2",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\nFigure 9. STM32F103xx performance line UFQFPN48 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\nFigure 10. STM32F103xx performance line VFQFPN36 pinout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27\nFigure 11. Memory map. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 34\nFigure 12. Pin loading conditions. . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_3",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 35\nFigure 13. Pin input voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\nFigure 14. Power supply scheme. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\nFigure 15. Current consumption measurement scheme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\nFigure"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_4",
+            "text": " 16. Typical current consumption in  Run mode versus frequency (at 3.6 V),\ncode with data processing running from RAM, peripherals enabled. . . . . . . . . . . . . . . . . . 42\nFigure 17. Typical current consumption in  Run mode versus frequency (at 3.6 V),\ncode with data processing running from RAM, peripherals disabled . . . . . . . . . . . . . . . . . 42\nFigure 18. Typical current consumption on V BAT (RTC on) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44\nFigure 19. Typ"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_5",
+            "text": "ical current consumption in Stop mode, wit h regulator in Run mode . . . . . . . . . . . . . . 45\nFigure 20. Typical current consumption in Stop mode, with regulator in Low-power mode. . . . . . . . . 45\nFigure 21. Typical current consumption in Standby mode. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nFigure 22. High-speed external clock source AC timing diagra m  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nFigure 23. Low-speed external clock source AC ti"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_6",
+            "text": "ming diagram.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52\nFigure 24. Typical application with an 8 MHz crystal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53\nFigure 25. Typical application with a 32.768 kHz crystal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\nFigure 26. Standard I/O input characterist ics - CMOS port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62\nFigure 27. Standard I/O input charac"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_7",
+            "text": "teristics - TTL port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 2\nFigure 28. 5 V tolerant I/O inpu t characteristics - CMOS port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63\nFigure 29. 5 V tolerant I/O inpu t characteristics - TTL port  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63\nFigure 30. I/O AC characteristics definition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66\nFigure "
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_8",
+            "text": "31. Recommended NRST pin protection  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67\nFigure 32. I 2C bus AC waveforms and measurement circuit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69\nFigure 33. SPI timing diagram - slave mode and CPHA = 0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71\nFigure 34. SPI timing diagram - slave mode and CPHA = 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71\nFigure 3"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_9",
+            "text": "5. SPI timing diagram - master mode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72\nFigure 36. USB timings: definition of data signal rise and fa ll time  . . . . . . . . . . . . . . . . . . . . . . . . . . . 73\nFigure 37. ADC accuracy characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76\nFigure 38. Typical connection diagram using the ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_10",
+            "text": " . . . . . . 77\nFigure 39. Power supply and reference decoupling (V REF+ not connected to VDDA). . . . . . . . . . . . . . 77\nFigure 40. Power supply and reference decoupling (V REF+ connected to VDDA). . . . . . . . . . . . . . . . . 78\nFigure 41. VFQFPN - 36 pin, 6x6 mm, 0.5 mm pi tch very thin profile fine pitch quad flat\npackage outline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80\nFigure 42. VFQFPN - 36 pin, 6x6 mm, 0.5"
+          },
+          {
+            "chunk_id": "stm32f103c8_p7_paragraph_11",
+            "text": " mm pi tch very thin profile fine pitch quad flat\npackage recommended footprint  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82\nFigure 43. UFQFPN48 – Outline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83\nFigure 44. UFQFPN48 – Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 2,
+      "reason": "Trang 7: Danh sach hinh ve giu nguyen ven o Paragraph, Fixed-size ngat dong giua chung.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 2
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 8,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p8_fixed_0",
+            "text": "List of figures STM32F103x8, STM32F103xB\n8/114 DS5319 Rev 19\nFigure 45. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package outline  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\nFigure 46. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package recommended footprint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86\nFigure 47. LQFP100 - Outline (15)."
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_fixed_450",
+            "text": " . . . . . . 86\nFigure 47. LQFP100 - Outline (15). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87\nFigure 48. LQFP100 - Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 89\nFigure 49. UFBGA100 - Outline (13) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90\nFigure 50. UFBGA100 - Footprint example . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_fixed_900",
+            "text": "100 - Footprint example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92\nFigure 51. LQFP64 - Outline (15). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\nFigure 52. LQFP64 - Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95\nFigure 53. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch thin profile fine pitch ball grid array\npackage out"
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_fixed_1350",
+            "text": "hin profile fine pitch ball grid array\npackage outline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96\nFigure 54. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch, thin profile fine pitch ball grid array\n, recommended footprint. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97\nFigure 55. LQFP48 – Outline (15)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_fixed_1800",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98\nFigure 56. LQFP48 – Footprint example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100\nFigure 57. LQFP100 P D max vs. TA  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_0",
+            "text": "List of figures STM32F103x8, STM32F103xB\n8/114 DS5319 Rev 19\nFigure 45. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package outline  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\nFigure 46. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package recommended footprint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86\nFigure 47. LQFP100 - Outline (15)."
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_1",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87\nFigure 48. LQFP100 - Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 89\nFigure 49. UFBGA100 - Outline (13) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90\nFigure 50. UFBGA100 - Footprint example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_2",
+            "text": ". . . . . . . 92\nFigure 51. LQFP64 - Outline (15). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\nFigure 52. LQFP64 - Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95\nFigure 53. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch thin profile fine pitch ball grid array\npackage outline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_3",
+            "text": ". . . . . . . . . . 96\nFigure 54. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch, thin profile fine pitch ball grid array\n, recommended footprint. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97\nFigure 55. LQFP48 – Outline (15)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98\nFigure 56. LQFP48 – Footprint example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_4",
+            "text": ". . . . . . . . . 100\nFigure 57. LQFP100 P D max vs. TA  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_0",
+            "text": "List of figures STM32F103x8, STM32F103xB\n8/114 DS5319 Rev 19\nFigure 45. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package outline  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\nFigure 46. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package recommended footprint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86\nFigure 47. LQFP100 - Outline (15)."
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_1",
+            "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87\nFigure 48. LQFP100 - Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 89\nFigure 49. UFBGA100 - Outline (13) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90\nFigure 50. UFBGA100 - Footprint example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_2",
+            "text": ". . . . . . . 92\nFigure 51. LQFP64 - Outline (15). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93\nFigure 52. LQFP64 - Footprint example  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95\nFigure 53. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch thin profile fine pitch ball grid array\npackage outline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_3",
+            "text": ". . . . . . . . . . 96\nFigure 54. TFBGA64 – 64-ball, 5 x 5 mm, 0.5 mm pitch, thin profile fine pitch ball grid array\n, recommended footprint. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97\nFigure 55. LQFP48 – Outline (15)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98\nFigure 56. LQFP48 – Footprint example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+          },
+          {
+            "chunk_id": "stm32f103c8_p8_paragraph_4",
+            "text": ". . . . . . . . . 100\nFigure 57. LQFP100 P D max vs. TA  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 2,
+      "reason": "Trang 8: Paragraph phan tach cac tieu de hinh anh de hieu hon.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 2
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 9,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p9_fixed_0",
+            "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_fixed_450",
+            "text": "with the low-,\nmedium-, and high-density STM32F10xxx reference manual. For information on the device\nerrata with respect to the datasheet and reference manual, refer to the STM32F103x8/B\nerrata sheet (ES096). The errata sheet, reference manual, and flash programming manual\nare all available on the STMicroelectronics website www.st.com.\nFor information on the Arm®(a) Cortex®-M3 core refer to the Cortex®-M3 Technical\nReference Manual, available from the www.arm.com website.\n2 Description\nThe STM32"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_fixed_900",
+            "text": "m the www.arm.com website.\n2 Description\nThe STM32F103xx medium-density performance line family incorporates the\nhigh-performance Arm® Cortex®-M3 32-bit RISC core operating at a 72 MHz frequency,\nhigh-speed embedded memories (Flash memory up to 128 Kbytes and SRAM up to\n20 Kbytes), and an extensive range of enhanced I/Os and peripherals connected to two\nAPB buses. All devices offer two 12-bit ADCs, three general purpose 16-bit timers plus one\nPWM timer, as well as standard and advanced communica"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_fixed_1350",
+            "text": " timer, as well as standard and advanced communication interfaces: up to two I2Cs\nand SPIs, three USARTs, an USB and a CAN.\nThe devices operate from a 2.0 to 3.6 V power supply. They are available in both the –40 to\n+85°C temperature range and the –40 to +105 °C extended temperature range. A\ncomprehensive set of power-saving mode allows the design of low-power applications.\nThe STM32F103xx medium-density performance line family includes devices in six different\npackage types: from 36 pins to 100"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_fixed_1800",
+            "text": "n six different\npackage types: from 36 pins to 100 pins. Depending on the device chosen, different sets of\nperipherals are included, the description below gives an overview of the complete range of\nperipherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\nappl"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_fixed_2250",
+            "text": "gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere."
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_0",
+            "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_1",
+            "text": "xx reference manual. For information on the device\nerrata with respect to the datasheet and reference manual, refer to the STM32F103x8/B\nerrata sheet (ES096). The errata sheet, reference manual, and flash programming manual\nare all available on the STMicroelectronics website www.st.com.\nFor information on the Arm®(a) Cortex®-M3 core refer to the Cortex®-M3 Technical\nReference Manual, available from the www.arm.com website.\n2 Description\nThe STM32F103xx medium-density performance line family inco"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_2",
+            "text": "rporates the\nhigh-performance Arm® Cortex®-M3 32-bit RISC core operating at a 72 MHz frequency,\nhigh-speed embedded memories (Flash memory up to 128 Kbytes and SRAM up to\n20 Kbytes), and an extensive range of enhanced I/Os and peripherals connected to two\nAPB buses. All devices offer two 12-bit ADCs, three general purpose 16-bit timers plus one\nPWM timer, as well as standard and advanced communication interfaces: up to two I2Cs\nand SPIs, three USARTs, an USB and a CAN.\nThe devices operate from a"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_3",
+            "text": " 2.0 to 3.6 V power supply. They are available in both the –40 to\n+85°C temperature range and the –40 to +105 °C extended temperature range. A\ncomprehensive set of power-saving mode allows the design of low-power applications.\nThe STM32F103xx medium-density performance line family includes devices in six different\npackage types: from 36 pins to 100 pins. Depending on the device chosen, different sets of\nperipherals are included, the description below gives an overview of the complete range of\npe"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_4",
+            "text": "ripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere."
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_0",
+            "text": "DS5319 Rev 19 9/114\nSTM32F103x8, STM32F103xB Introduction\n104\n1 Introduction\nThis document provides the ordering information and mechanical device characteristics of\nthe STM32F103x8 and STM32F103xB medium-density performance line microcontrollers.\nFor more details on the whole STMicroelectronics STM32F103xx family, refer to\nSection 2.2: Full compatibility throughout the family.\nThe medium-density STM32F103xx datasheet must be read in conjunction with the low-,\nmedium-, and high-density STM32F10x"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_1",
+            "text": "xx reference manual. For information on the device\nerrata with respect to the datasheet and reference manual, refer to the STM32F103x8/B\nerrata sheet (ES096). The errata sheet, reference manual, and flash programming manual\nare all available on the STMicroelectronics website www.st.com.\nFor information on the Arm®(a) Cortex®-M3 core refer to the Cortex®-M3 Technical\nReference Manual, available from the www.arm.com website.\n2 Description\nThe STM32F103xx medium-density performance line family inco"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_2",
+            "text": "rporates the\nhigh-performance Arm® Cortex®-M3 32-bit RISC core operating at a 72 MHz frequency,\nhigh-speed embedded memories (Flash memory up to 128 Kbytes and SRAM up to\n20 Kbytes), and an extensive range of enhanced I/Os and peripherals connected to two\nAPB buses. All devices offer two 12-bit ADCs, three general purpose 16-bit timers plus one\nPWM timer, as well as standard and advanced communication interfaces: up to two I2Cs\nand SPIs, three USARTs, an USB and a CAN.\nThe devices operate from a"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_3",
+            "text": " 2.0 to 3.6 V power supply. They are available in both the –40 to\n+85°C temperature range and the –40 to +105 °C extended temperature range. A\ncomprehensive set of power-saving mode allows the design of low-power applications.\nThe STM32F103xx medium-density performance line family includes devices in six different\npackage types: from 36 pins to 100 pins. Depending on the device chosen, different sets of\nperipherals are included, the description below gives an overview of the complete range of\npe"
+          },
+          {
+            "chunk_id": "stm32f103c8_p9_paragraph_4",
+            "text": "ripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere."
+          }
+        ]
+      },
+      "manual_score_0_to_2": 2,
+      "reason": "Trang 9: Ca 2 chien luoc deu giu duoc doan mo dau Introduction va Description.",
+      "manual_score_A_0_to_2": 2,
+      "manual_score_B_0_to_2": 2
+    },
+    {
+      "document_id": "stm32f103c8",
+      "source": "stm32f103c8.pdf",
+      "page": 10,
+      "chunks_by_strategy": {
+        "A": [
+          {
+            "chunk_id": "stm32f103c8_p10_fixed_0",
+            "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview\n\nTable 2. STM32F103xx medium-density device features and peripheral counts\nPeripheral STM32F103Tx STM32F103Cx STM32F103Rx STM32F103Vx\nFlash - Kbytes 64 128 64 128 64 128 64 128\nSRAM - Kbytes 20 20 20 20\nTimers\nGeneral-purpose 33 3 3\nAdvanced-control 11 1 1\nCommunication\nSPI 12 2 2\nI2C 12 2 2\nUSART 23 3 3\nUSB 11 1 1\nCAN 11 1 1\nGPIOs 26 37 51 80\n12-bit synchronized ADC\nNumber of channels\n2\n10 channels\n2\n10 channels\n2\n16 "
+          },
+          {
+            "chunk_id": "stm32f103c8_p10_fixed_450",
+            "text": "mber of channels\n2\n10 channels\n2\n10 channels\n2\n16 channels(1)\n1. On the TFBGA64 package only 15 channels are avai lable (one analog input pin has been replaced by\nVREF+).\n2\n16 channels\nCPU frequency 72 MHz\nOperating voltage 2.0 to 3.6 V\nOperating temperatures Ambient temperatures: -40 to +85 °C / -40 to +105 °C (see Table 9)Junction temperature: -40 to + 125 °C (see Table 9)\nPackages VFQFPN36 LQFP48, UFQFPN48 LQFP64, TFBGA64 LQFP100, LFBGA100, UFBGA100"
+          },
+          {
+            "chunk_id": "stm32f103c8_p10_fixed_900",
+            "text": "BGA100"
+          }
+        ],
+        "B": [
+          {
+            "chunk_id": "stm32f103c8_p10_paragraph_0",
+            "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview"
+          },
+          {
+            "chunk_id": "stm32f103c8_p10_paragraph_1",
+            "text": "Table 2. STM32F103xx medium-density device features and peripheral counts\nPeripheral STM32F103Tx STM32F103Cx STM32F103Rx STM32F103Vx\nFlash - Kbytes 64 128 64 128 64 128 64 128\nSRAM - Kbytes 20 20 20 20\nTimers\nGeneral-purpose 33 3 3\nAdvanced-control 11 1 1\nCommunication\nSPI 12 2 2\nI2C 12 2 2\nUSART 23 3 3\nUSB 11 1 1\nCAN 11 1 1\nGPIOs 26 37 51 80\n12-bit synchronized ADC\nNumber of channels\n2\n10 channels\n2\n10 channels\n2\n16 channels(1)\n1. On the TFBGA64 package only 15 channels are avai lable (one anal"
+          },
+          {
+            "chunk_id": "stm32f103c8_p10_paragraph_2",
+            "text": "og input pin has been replaced by\nVREF+).\n2\n16 channels\nCPU frequency 72 MHz\nOperating voltage 2.0 to 3.6 V\nOperating temperatures Ambient temperatures: -40 to +85 °C / -40 to +105 °C (see Table 9)Junction temperature: -40 to + 125 °C (see Table 9)\nPackages VFQFPN36 LQFP48, UFQFPN48 LQFP64, TFBGA64 LQFP100, LFBGA100, UFBGA100"
+          }
+        ],
+        "C": [
+          {
+            "chunk_id": "stm32f103c8_p10_paragraph_0",
+            "text": "Description STM32F103x8, STM32F103xB\n10/114 DS5319 Rev 19\n2.1 Device overview"
+          },
+          {
+            "chunk_id": "stm32f103c8_p10_paragraph_1",
+            "text": "Table 2. STM32F103xx medium-density device features and peripheral counts\nPeripheral STM32F103Tx STM32F103Cx STM32F103Rx STM32F103Vx\nFlash - Kbytes 64 128 64 128 64 128 64 128\nSRAM - Kbytes 20 20 20 20\nTimers\nGeneral-purpose 33 3 3\nAdvanced-control 11 1 1\nCommunication\nSPI 12 2 2\nI2C 12 2 2\nUSART 23 3 3\nUSB 11 1 1\nCAN 11 1 1\nGPIOs 26 37 51 80\n12-bit synchronized ADC\nNumber of channels\n2\n10 channels\n2\n10 channels\n2\n16 channels(1)\n1. On the TFBGA64 package only 15 channels are avai lable (one anal"
+          },
+          {
+            "chunk_id": "stm32f103c8_p10_paragraph_2",
+            "text": "og input pin has been replaced by\nVREF+).\n2\n16 channels\nCPU frequency 72 MHz\nOperating voltage 2.0 to 3.6 V\nOperating temperatures Ambient temperatures: -40 to +85 °C / -40 to +105 °C (see Table 9)Junction temperature: -40 to + 125 °C (see Table 9)\nPackages VFQFPN36 LQFP48, UFQFPN48 LQFP64, TFBGA64 LQFP100, LFBGA100, UFBGA100"
+          }
+        ]
+      },
+      "manual_score_0_to_2": 2,
+      "reason": "Trang 10: Bang thong so thiet bi duoc Paragraph gom cum tot hon han so voi cua so co dinh 500.",
+      "manual_score_A_0_to_2": 1,
+      "manual_score_B_0_to_2": 2
+    }
+  ],
+  "metadata_review_test_top3": [
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p19_fixed_0",
+      "source": "stm32f103c8.pdf",
+      "page": 19,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 500,
+        "is_empty": false,
+        "start_char": 0,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p17_fixed_1800",
+      "source": "stm32f103c8.pdf",
+      "page": 17,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 2300,
+        "is_empty": false,
+        "start_char": 1800,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p18_fixed_0",
+      "source": "stm32f103c8.pdf",
+      "page": 18,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 500,
+        "is_empty": false,
+        "start_char": 0,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p20_fixed_0",
+      "source": "stm32f103c8.pdf",
+      "page": 20,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 500,
+        "is_empty": false,
+        "start_char": 0,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p14_fixed_1350",
+      "source": "stm32f103c8.pdf",
+      "page": 14,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 1850,
+        "is_empty": false,
+        "start_char": 1350,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p2_fixed_900",
+      "source": "stm32f103c8.pdf",
+      "page": 2,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 1400,
+        "is_empty": false,
+        "start_char": 900,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p6_fixed_1800",
+      "source": "stm32f103c8.pdf",
+      "page": 6,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 2300,
+        "is_empty": false,
+        "start_char": 1800,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p5_fixed_4950",
+      "source": "stm32f103c8.pdf",
+      "page": 5,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 5450,
+        "is_empty": false,
+        "start_char": 4950,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p6_fixed_1350",
+      "source": "stm32f103c8.pdf",
+      "page": 6,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 1850,
+        "is_empty": false,
+        "start_char": 1350,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p2_fixed_3150",
+      "source": "stm32f103c8.pdf",
+      "page": 2,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 3508,
+        "is_empty": false,
+        "start_char": 3150,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p34_fixed_0",
+      "source": "stm32f103c8.pdf",
+      "page": 34,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 500,
+        "is_empty": false,
+        "start_char": 0,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p3_fixed_1800",
+      "source": "stm32f103c8.pdf",
+      "page": 3,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 2300,
+        "is_empty": false,
+        "start_char": 1800,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p35_fixed_0",
+      "source": "stm32f103c8.pdf",
+      "page": 35,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 500,
+        "is_empty": false,
+        "start_char": 0,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p2_fixed_1350",
+      "source": "stm32f103c8.pdf",
+      "page": 2,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 1850,
+        "is_empty": false,
+        "start_char": 1350,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p16_fixed_450",
+      "source": "stm32f103c8.pdf",
+      "page": 16,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "end_char": 950,
+        "is_empty": false,
+        "start_char": 450,
+        "manufacturer": "STMicroelectronics"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p18_paragraph_2",
+      "source": "stm32f103c8.pdf",
+      "page": 18,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p19_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 19,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p18_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 18,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p20_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 20,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p9_paragraph_4",
+      "source": "stm32f103c8.pdf",
+      "page": 9,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p2_paragraph_1",
+      "source": "stm32f103c8.pdf",
+      "page": 2,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p6_paragraph_5",
+      "source": "stm32f103c8.pdf",
+      "page": 6,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p5_paragraph_10",
+      "source": "stm32f103c8.pdf",
+      "page": 5,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p5_paragraph_7",
+      "source": "stm32f103c8.pdf",
+      "page": 5,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p34_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 34,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p7_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 7,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p5_paragraph_8",
+      "source": "stm32f103c8.pdf",
+      "page": 5,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p3_paragraph_1",
+      "source": "stm32f103c8.pdf",
+      "page": 3,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p2_paragraph_3",
+      "source": "stm32f103c8.pdf",
+      "page": 2,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p16_paragraph_4",
+      "source": "stm32f103c8.pdf",
+      "page": 16,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p18_paragraph_2",
+      "source": "stm32f103c8.pdf",
+      "page": 18,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p19_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 19,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "chunk_id": "stm32f103c8_p18_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 18,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p20_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 20,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p9_paragraph_4",
+      "source": "stm32f103c8.pdf",
+      "page": 9,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "chunk_id": "stm32f103c8_p2_paragraph_1",
+      "source": "stm32f103c8.pdf",
+      "page": 2,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p6_paragraph_5",
+      "source": "stm32f103c8.pdf",
+      "page": 6,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p5_paragraph_10",
+      "source": "stm32f103c8.pdf",
+      "page": 5,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "chunk_id": "stm32f103c8_p5_paragraph_7",
+      "source": "stm32f103c8.pdf",
+      "page": 5,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p34_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 34,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p7_paragraph_0",
+      "source": "stm32f103c8.pdf",
+      "page": 7,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "chunk_id": "stm32f103c8_p5_paragraph_8",
+      "source": "stm32f103c8.pdf",
+      "page": 5,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p3_paragraph_1",
+      "source": "stm32f103c8.pdf",
+      "page": 3,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p2_paragraph_3",
+      "source": "stm32f103c8.pdf",
+      "page": 2,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "chunk_id": "stm32f103c8_p16_paragraph_4",
+      "source": "stm32f103c8.pdf",
+      "page": 16,
+      "metadata": {
+        "device": "STM32F103C8",
+        "family": "STM32F1",
+        "is_empty": false,
+        "manufacturer": "STMicroelectronics",
+        "chunking_strategy": "paragraph"
+      },
+      "complete_and_correct": true,
+      "notes": "Doi chieu dung voi trang vat ly va ten tai lieu stm32f103c8.pdf"
+    }
+  ],
+  "grounding_quality_test": [
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "question": "SysTick timer trên vi điều khiển STM32F103xx chủ yếu được dành riêng cho mục đích gì?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p19_fixed_0",
+          "text": "DS5319 Rev 19 19/114\nSTM32F103x8, STM32F103xB Description\n104\nSysTick timer\nThis timer is dedicated for OS, but can be used also as a standard downcounter. It features:\n• A 24-bit downcounter\n• Autoreload capability\n• Maskable system interrupt generation when the counter reaches 0\n• Programmable clock source\n2.3.16 I²C bus\nUp to two I²C bus interfaces can operate in multimaster and slave modes. They can support\nstandard and fast modes.\nThey support dual slave addressing (7-bit only) and both 7/1",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 500,
+            "is_empty": false,
+            "start_char": 0,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.7225120067596436,
+          "source": "stm32f103c8.pdf",
+          "page": 19,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p17_fixed_1800",
+          "text": ".\n2.3.15 Timers and watchdogs\nThe medium-density STM32F103xx performance line devices include an advanced-control\ntimer, three general-purpose timers, two watchdog timers and a SysTick timer.\nTable 4 compares the features of the advanced-control and general-purpose timers.\n\nTable 4. Timer feature comparison\nTimer Counter resolution Counter type Prescaler factor DMA request generation Capture/compare channels Complementaryoutputs\nTIM1 16-bit\nUp,\ndown,\nup/down\nAny integer\nbetween 1\nand 65536\nYes 4",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 2300,
+            "is_empty": false,
+            "start_char": 1800,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.7191892862319946,
+          "source": "stm32f103c8.pdf",
+          "page": 17,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p18_fixed_0",
+          "text": "Description STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 500,
+            "is_empty": false,
+            "start_char": 0,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.7098547220230103,
+          "source": "stm32f103c8.pdf",
+          "page": 18,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 1 o trang 19 chua day du thong tin SysTick 24-bit downcounter cho OS"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "question": "Bằng phần mềm, các chân GPIO của vi điều khiển có thể được cấu hình ở những chế độ ngõ ra nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p20_fixed_0",
+          "text": "Description STM32F103x8, STM32F103xB\n20/114 DS5319 Rev 19\n2.3.21 GPIOs (general -purpose inputs/outputs)\nEach of the GPIO pins can be configured by software as output (push-pull or open-drain), as\ninput (with or without pull-up or pull-down) or as peripheral alternate function. Most of the\nGPIO pins are shared with digital or analog alternate functions. All GPIOs are high current-\ncapable.\nThe I/Os alternate function configuration can be locked if needed following a specific\nsequence in order to",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 500,
+            "is_empty": false,
+            "start_char": 0,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.7017756459980433,
+          "source": "stm32f103c8.pdf",
+          "page": 20,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p14_fixed_1350",
+          "text": "the flash memory integrity. The CRC calculation unit helps compute a signature of\nthe software during runtime, to be compared with a reference signature generated at link-\ntime and stored at a given memory location.\n2.3.4 Embedded SRAM\nTwenty Kbytes of embedded SRAM accessed (read/write) at CPU clock speed with 0 wait\nstates.\n2.3.5 Nested vectored interrupt controller (NVIC)\nThe STM32F103xx performance line embeds a nested vectored interrupt controller able to\nhandle up to 43 maskable interrupt ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 1850,
+            "is_empty": false,
+            "start_char": 1350,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.45999466002003553,
+          "source": "stm32f103c8.pdf",
+          "page": 14,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p2_fixed_900",
+          "text": "  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.5 Nested vectored interrupt controller (NVIC)  . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.6 External interrupt/event controller (EXTI) . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.7 Clocks and startup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.8 Boot modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 1400,
+            "is_empty": false,
+            "start_char": 900,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.4562667336304951,
+          "source": "stm32f103c8.pdf",
+          "page": 2,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 1 o trang 20 chua day du thong tin che do ngo ra GPIO push-pull/open-drain"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "question": "Bảng 5 trong tài liệu định nghĩa chân của dòng vi điều khiển nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p6_fixed_1800",
+          "text": " . . . . . . . . 86\nTable 56. LQFP100 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 88\nTable 57. UFBGA100 - Mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91\nTable 58. UFBGA100 - Example of PCB design rules (0.5 mm  pitch BGA). . . . . . . . . . . . . . . . . . . . 92\nTable 59. LQFP64 - Mechanical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 2300,
+            "is_empty": false,
+            "start_char": 1800,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.5348880290985107,
+          "source": "stm32f103c8.pdf",
+          "page": 6,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p5_fixed_4950",
+          "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60\nTable 36. I/O static characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 61\nTable 37. Output voltage characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 64\nTable 38. I/O AC characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 5450,
+            "is_empty": false,
+            "start_char": 4950,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.488092511182578,
+          "source": "stm32f103c8.pdf",
+          "page": 5,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p6_fixed_1350",
+          "text": ". . . . . . . . . . . . . . 81\nTable 53. UFQFPN48 – Mechanical data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84\nTable 54. LFBGA100 – 100-ball low profile fine pitch ball grid array, 10 x 10 mm,\n0.8 mm pitch, package mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85\nTable 55. LFBGA100 recommended PCB design rules (0.8 mm  pitch BGA). . . . . . . . . . . . . . . . . . . 86\nTable 56. LQFP100 - Mechanical",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 1850,
+            "is_empty": false,
+            "start_char": 1350,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.48555576973489034,
+          "source": "stm32f103c8.pdf",
+          "page": 6,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 0,
+      "reason": "Top 3 khong chua Bang 5, chi lay phai muc luc"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "question": "Sơ đồ bản đồ bộ nhớ (Memory map) của vi điều khiển được thể hiện ở hình số mấy?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p2_fixed_3150",
+          "text": " . . . . . . . . . . . . . . . . . 21\n4 Memory mapping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34\n5 Electrical characteristi cs  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1 Parameter conditions  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 3508,
+            "is_empty": false,
+            "start_char": 3150,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.6830902899232596,
+          "source": "stm32f103c8.pdf",
+          "page": 2,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p34_fixed_0",
+          "text": "Memory mapping STM32F103x8, STM32F103xB\n34/114 DS5319 Rev 19\n4 Memory mapping\nThe memory map is shown in Figure 11.\nFigure 11. Memory map\nMSv73632V1\nTIM2\nTIM3\nTIM4\nReserved\nRTC\nWWDG\nIWDG\nReserved\nSPI2\nReserved\nUSART2\nUSART3\nReserved\nI2C1\nI2C2\nUSB registers\nshared 512 byte\nUSB/CAN SRAM\nbxCAN\nReserved\nBKP\nPWR\nReserved\nAFIO\nEXTI\nPort A\nPort B\nPort C\nPort D\nPort E\nReserved\nADC1\nADC2\nTIM1\nSPI1\nReserved\nUSART1\nReserved\nDMA\nReserved\nRCC\nReserved\nFlash interface\nReserved\nCRC\nReserved\nReserved\nReserved\nA",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 500,
+            "is_empty": false,
+            "start_char": 0,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.5881027228771027,
+          "source": "stm32f103c8.pdf",
+          "page": 34,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p3_fixed_1800",
+          "text": ". . . . . . . . 56\n5.3.9 Memory characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n5.3.10 EMC characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57\n5.3.11 Absolute maximum ratings (electrical sensitivity) . . . . . . . . . . . . . . . . . . 59\n5.3.12 I/O current injection characte ristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60\n5.3.13 I/O port characteristics . . . . . . . . . . . . . . . ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 2300,
+            "is_empty": false,
+            "start_char": 1800,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.5385820865631104,
+          "source": "stm32f103c8.pdf",
+          "page": 3,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 2 o trang 34 chua Figure 11 Memory map"
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "question": "Trong các điều kiện tham số điện, trừ khi có quy định khác thì tất cả điện áp đều được tham chiếu theo mốc nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p35_fixed_0",
+          "text": "DS5319 Rev 19 35/114\nSTM32F103x8, STM32F103xB Electrical characteristics\n104\n5 Electrical characteristics\n5.1 Parameter conditions\nUnless otherwise specified, all voltages are referenced to VSS.\n5.1.1 Minimum and maximum values\nUnless otherwise specified the minimum and maximum values are guaranteed in the worst\nconditions of ambient temperature, supply voltage and frequencies by tests in production on\n100% of the devices with an ambient temperature at TA = 25°C and TA = TAmax (given by\nthe sele",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 500,
+            "is_empty": false,
+            "start_char": 0,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.5373724699020386,
+          "source": "stm32f103c8.pdf",
+          "page": 35,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p2_fixed_1350",
+          "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.9 Power supply schemes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.10 Power supply supervisor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.11 Voltage regulator  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.12 Low-power modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.13 D",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 1850,
+            "is_empty": false,
+            "start_char": 1350,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.5150278517620485,
+          "source": "stm32f103c8.pdf",
+          "page": 2,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p16_fixed_450",
+          "text": "he interrupt service routine can then generate a warning\nmessage and/or put the MCU into a safe state. The PVD is enabled by software.\nRefer to Table 11 for the values of VPOR/PDR and VPVD.\n2.3.11 Voltage regulator\nThe regulator has three operation modes: main (MR), low-power (LPR) and power down.\n• MR is used in the nominal regulation mode (Run)\n• LPR is used in the Stop mode\n• Power down is used in Standby mode: the regulator output is in high impedance: the\nkernel circuitry is powered down, i",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "end_char": 950,
+            "is_empty": false,
+            "start_char": 450,
+            "manufacturer": "STMicroelectronics"
+          },
+          "score": 0.4821842908859253,
+          "source": "stm32f103c8.pdf",
+          "page": 16,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 1 o trang 35 chua day du thong tin tham chieu dien ap theo VSS"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "question": "SysTick timer trên vi điều khiển STM32F103xx chủ yếu được dành riêng cho mục đích gì?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p18_paragraph_2",
+          "text": "chronization or event chaining.\nGeneral-purpose timers (TIMx)\nThere are up to three synchronizable general-purpose timers embedded in the\nSTM32F103xx performance line devices. These timers are based on a 16-bit auto-reload\nup/down counter, a 16-bit prescaler and feature four independent channels each for input\ncapture/output compare, PWM or one-pulse mode output. This gives up to 12 input\ncaptures/output compares/PWMs on the largest packages.\nThe general-purpose timers can work together with the",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.7719758884921154,
+          "source": "stm32f103c8.pdf",
+          "page": 18,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p19_paragraph_0",
+          "text": "DS5319 Rev 19 19/114\nSTM32F103x8, STM32F103xB Description\n104\nSysTick timer\nThis timer is dedicated for OS, but can be used also as a standard downcounter. It features:\n• A 24-bit downcounter\n• Autoreload capability\n• Maskable system interrupt generation when the counter reaches 0\n• Programmable clock source\n2.3.16 I²C bus\nUp to two I²C bus interfaces can operate in multimaster and slave modes. They can support\nstandard and fast modes.\nThey support dual slave addressing (7-bit only) and both 7/1",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.7225120067596436,
+          "source": "stm32f103c8.pdf",
+          "page": 19,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p18_paragraph_0",
+          "text": "Description STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.7098547220230103,
+          "source": "stm32f103c8.pdf",
+          "page": 18,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 2 o trang 19 chua day du thong tin SysTick timer cho OS"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "question": "Bằng phần mềm, các chân GPIO của vi điều khiển có thể được cấu hình ở những chế độ ngõ ra nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p20_paragraph_0",
+          "text": "Description STM32F103x8, STM32F103xB\n20/114 DS5319 Rev 19\n2.3.21 GPIOs (general -purpose inputs/outputs)\nEach of the GPIO pins can be configured by software as output (push-pull or open-drain), as\ninput (with or without pull-up or pull-down) or as peripheral alternate function. Most of the\nGPIO pins are shared with digital or analog alternate functions. All GPIOs are high current-\ncapable.\nThe I/Os alternate function configuration can be locked if needed following a specific\nsequence in order to",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.7017756459980433,
+          "source": "stm32f103c8.pdf",
+          "page": 20,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p9_paragraph_4",
+          "text": "ripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.48847273060842067,
+          "source": "stm32f103c8.pdf",
+          "page": 9,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p2_paragraph_1",
+          "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM  . . . . . . . . . . . 14\n2.3.2 Embedded flash memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.3 CRC (cyclic redundancy check) calculation unit  . . . . . . . . . . . . . . . . . . 14\n2.3.4 Embedded SRAM  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.5 Nested ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.4763449288503866,
+          "source": "stm32f103c8.pdf",
+          "page": 2,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 1 o trang 20 chua day du thong tin GPIO push-pull va open-drain"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "question": "Bảng 5 trong tài liệu định nghĩa chân của dòng vi điều khiển nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p6_paragraph_5",
+          "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . 96\nTable 61. TFBGA64 recommended PCB design rules (0.5 mm pitch BGA). . . . . . . . . . . . . . . . . . . . 97\nTable 62. LQFP48 – Mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 99\nTable 63. Package thermal characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\nTable 64. Document revision history  . . . . . . . . . . . . . . . ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.4841569662094116,
+          "source": "stm32f103c8.pdf",
+          "page": 6,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p5_paragraph_10",
+          "text": ". . . . . . . . . . . . . . 60\nTable 36. I/O static characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 61\nTable 37. Output voltage characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 64\nTable 38. I/O AC characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65\nTable 39. NRST pin characteristics  . . . . . ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.48220625413693596,
+          "source": "stm32f103c8.pdf",
+          "page": 5,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p5_paragraph_7",
+          "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\nTable 25. LSI oscillator characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55\nTable 26. Low-power mode wakeup timings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 27. PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 56\nTable 28. Flash me",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.4790782928466797,
+          "source": "stm32f103c8.pdf",
+          "page": 5,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 0,
+      "reason": "Top 3 chua bang khac, khong co Bang 5 pin definitions"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "question": "Sơ đồ bản đồ bộ nhớ (Memory map) của vi điều khiển được thể hiện ở hình số mấy?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p34_paragraph_0",
+          "text": "Memory mapping STM32F103x8, STM32F103xB\n34/114 DS5319 Rev 19\n4 Memory mapping\nThe memory map is shown in Figure 11.\nFigure 11. Memory map\nMSv73632V1\nTIM2\nTIM3\nTIM4\nReserved\nRTC\nWWDG\nIWDG\nReserved\nSPI2\nReserved\nUSART2\nUSART3\nReserved\nI2C1\nI2C2\nUSB registers\nshared 512 byte\nUSB/CAN SRAM\nbxCAN\nReserved\nBKP\nPWR\nReserved\nAFIO\nEXTI\nPort A\nPort B\nPort C\nPort D\nPort E\nReserved\nADC1\nADC2\nTIM1\nSPI1\nReserved\nUSART1\nReserved\nDMA\nReserved\nRCC\nReserved\nFlash interface\nReserved\nCRC\nReserved\nReserved\nReserved\nA",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.5881027228771027,
+          "source": "stm32f103c8.pdf",
+          "page": 34,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p7_paragraph_0",
+          "text": "DS5319 Rev 19 7/114\nSTM32F103x8, STM32F103xB List of figures\n8\nList of figures\nFigure 1. STM32F103xx performance line block diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\nFigure 2. Clock tree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . 12\nFigure 3. STM32F103xx performance line LFBGA100 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\nFigure 4. STM32F103xx performanc",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.49765416979789734,
+          "source": "stm32f103c8.pdf",
+          "page": 7,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p5_paragraph_8",
+          "text": "mory characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 29. Flash memory endurance and data  retention . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57\nTable 30. EMS characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58\nTable 31. EMI characteristics for fHSE = 8 MHz and fHCLK = 48 MHz . . . . . . . . . . . . . . . . . . . . . . . 58",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.4913945192929825,
+          "source": "stm32f103c8.pdf",
+          "page": 5,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 1 o trang 34 chua Figure 11 Memory map"
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "question": "Trong các điều kiện tham số điện, trừ khi có quy định khác thì tất cả điện áp đều được tham chiếu theo mốc nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p3_paragraph_1",
+          "text": "voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.6 Power supply scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.1.7 Current consumption measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.2 Absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\n5.3 Operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.5754715800285339,
+          "source": "stm32f103c8.pdf",
+          "page": 3,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p2_paragraph_3",
+          "text": ". . . . . 15\n2.3.10 Power supply supervisor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.11 Voltage regulator  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.12 Low-power modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.13 DMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.14 RTC (real-time clock) and backup ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.5706991297423331,
+          "source": "stm32f103c8.pdf",
+          "page": 2,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p16_paragraph_4",
+          "text": "to achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.5554537773132324,
+          "source": "stm32f103c8.pdf",
+          "page": 16,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 1,
+      "reason": "Top 3 chi chua thong tin chung ve power supply, thieu cau tham chieu VSS"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "question": "SysTick timer trên vi điều khiển STM32F103xx chủ yếu được dành riêng cho mục đích gì?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p18_paragraph_2",
+          "text": "chronization or event chaining.\nGeneral-purpose timers (TIMx)\nThere are up to three synchronizable general-purpose timers embedded in the\nSTM32F103xx performance line devices. These timers are based on a 16-bit auto-reload\nup/down counter, a 16-bit prescaler and feature four independent channels each for input\ncapture/output compare, PWM or one-pulse mode output. This gives up to 12 input\ncaptures/output compares/PWMs on the largest packages.\nThe general-purpose timers can work together with the",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.7719758884921154,
+          "source": "stm32f103c8.pdf",
+          "page": 18,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p19_paragraph_0",
+          "text": "DS5319 Rev 19 19/114\nSTM32F103x8, STM32F103xB Description\n104\nSysTick timer\nThis timer is dedicated for OS, but can be used also as a standard downcounter. It features:\n• A 24-bit downcounter\n• Autoreload capability\n• Maskable system interrupt generation when the counter reaches 0\n• Programmable clock source\n2.3.16 I²C bus\nUp to two I²C bus interfaces can operate in multimaster and slave modes. They can support\nstandard and fast modes.\nThey support dual slave addressing (7-bit only) and both 7/1",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.7225120067596436,
+          "source": "stm32f103c8.pdf",
+          "page": 19,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p18_paragraph_0",
+          "text": "Description STM32F103x8, STM32F103xB\n18/114 DS5319 Rev 19\nAdvanced-control timer (TIM1)\nThe advanced-control timer (TIM1) can be seen as a three-phase PWM multiplexed on 6\nchannels. It has complementary PWM outputs with programmable inserted dead-times. It\ncan also be seen as a complete general-purpose timer. The 4 independent channels can be\nused for\n• Input capture\n• Output compare\n• PWM generation (edge- or center-aligned modes)\n• One-pulse mode output\nIf configured as a general-purpose 16-bi",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.7098547220230103,
+          "source": "stm32f103c8.pdf",
+          "page": 18,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Tuong tu B, Top 2 o trang 19 chua day du thong tin SysTick timer cho OS (co kem filter device)"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "question": "Bằng phần mềm, các chân GPIO của vi điều khiển có thể được cấu hình ở những chế độ ngõ ra nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p20_paragraph_0",
+          "text": "Description STM32F103x8, STM32F103xB\n20/114 DS5319 Rev 19\n2.3.21 GPIOs (general -purpose inputs/outputs)\nEach of the GPIO pins can be configured by software as output (push-pull or open-drain), as\ninput (with or without pull-up or pull-down) or as peripheral alternate function. Most of the\nGPIO pins are shared with digital or analog alternate functions. All GPIOs are high current-\ncapable.\nThe I/Os alternate function configuration can be locked if needed following a specific\nsequence in order to",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.7017756459980433,
+          "source": "stm32f103c8.pdf",
+          "page": 20,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p9_paragraph_4",
+          "text": "ripherals proposed in this family.\nThese features make the STM32F103xx medium-density performance line microcontroller\nfamily suitable for a wide range of applications such as motor drives, application control,\nmedical and handheld equipment, PC and gaming peripherals, GPS platforms, industrial\napplications, PLCs, inverters, printers, scanners, alarm systems, video intercoms, and\nHVACs.\na. Arm is a registered trademark of Arm Limited (o r its subsidiaries) in the US and/or elsewhere.",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.48847273060842067,
+          "source": "stm32f103c8.pdf",
+          "page": 9,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p2_paragraph_1",
+          "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.1 Arm ® Cortex®-M3 core with embedded flash and SRAM  . . . . . . . . . . . 14\n2.3.2 Embedded flash memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.3 CRC (cyclic redundancy check) calculation unit  . . . . . . . . . . . . . . . . . . 14\n2.3.4 Embedded SRAM  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n2.3.5 Nested ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.4763449288503866,
+          "source": "stm32f103c8.pdf",
+          "page": 2,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 1 o trang 20 chua day du thong tin GPIO push-pull/open-drain"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "question": "Bảng 5 trong tài liệu định nghĩa chân của dòng vi điều khiển nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p6_paragraph_5",
+          "text": " . . . . . . . . . . . . . . . . . . . . . . . . . . 96\nTable 61. TFBGA64 recommended PCB design rules (0.5 mm pitch BGA). . . . . . . . . . . . . . . . . . . . 97\nTable 62. LQFP48 – Mechanical data  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . 99\nTable 63. Package thermal characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101\nTable 64. Document revision history  . . . . . . . . . . . . . . . ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.4841569662094116,
+          "source": "stm32f103c8.pdf",
+          "page": 6,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p5_paragraph_10",
+          "text": ". . . . . . . . . . . . . . 60\nTable 36. I/O static characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 61\nTable 37. Output voltage characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 64\nTable 38. I/O AC characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65\nTable 39. NRST pin characteristics  . . . . . ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.48220625413693596,
+          "source": "stm32f103c8.pdf",
+          "page": 5,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p5_paragraph_7",
+          "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54\nTable 25. LSI oscillator characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55\nTable 26. Low-power mode wakeup timings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 27. PLL characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 56\nTable 28. Flash me",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.4790782928466797,
+          "source": "stm32f103c8.pdf",
+          "page": 5,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 0,
+      "reason": "Top 3 khong chua Bang 5"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "question": "Sơ đồ bản đồ bộ nhớ (Memory map) của vi điều khiển được thể hiện ở hình số mấy?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p34_paragraph_0",
+          "text": "Memory mapping STM32F103x8, STM32F103xB\n34/114 DS5319 Rev 19\n4 Memory mapping\nThe memory map is shown in Figure 11.\nFigure 11. Memory map\nMSv73632V1\nTIM2\nTIM3\nTIM4\nReserved\nRTC\nWWDG\nIWDG\nReserved\nSPI2\nReserved\nUSART2\nUSART3\nReserved\nI2C1\nI2C2\nUSB registers\nshared 512 byte\nUSB/CAN SRAM\nbxCAN\nReserved\nBKP\nPWR\nReserved\nAFIO\nEXTI\nPort A\nPort B\nPort C\nPort D\nPort E\nReserved\nADC1\nADC2\nTIM1\nSPI1\nReserved\nUSART1\nReserved\nDMA\nReserved\nRCC\nReserved\nFlash interface\nReserved\nCRC\nReserved\nReserved\nReserved\nA",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.5881027228771027,
+          "source": "stm32f103c8.pdf",
+          "page": 34,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p7_paragraph_0",
+          "text": "DS5319 Rev 19 7/114\nSTM32F103x8, STM32F103xB List of figures\n8\nList of figures\nFigure 1. STM32F103xx performance line block diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\nFigure 2. Clock tree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . 12\nFigure 3. STM32F103xx performance line LFBGA100 ballout  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\nFigure 4. STM32F103xx performanc",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.49765416979789734,
+          "source": "stm32f103c8.pdf",
+          "page": 7,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p5_paragraph_8",
+          "text": "mory characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\nTable 29. Flash memory endurance and data  retention . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57\nTable 30. EMS characteristics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58\nTable 31. EMI characteristics for fHSE = 8 MHz and fHCLK = 48 MHz . . . . . . . . . . . . . . . . . . . . . . . 58",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.4913945192929825,
+          "source": "stm32f103c8.pdf",
+          "page": 5,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 2,
+      "reason": "Top 1 o trang 34 chua Figure 11 Memory map"
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "question": "Trong các điều kiện tham số điện, trừ khi có quy định khác thì tất cả điện áp đều được tham chiếu theo mốc nào?",
+      "top3": [
+        {
+          "chunk_id": "stm32f103c8_p3_paragraph_1",
+          "text": "voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.6 Power supply scheme  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.1.7 Current consumption measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.2 Absolute maximum ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\n5.3 Operating conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.5754715800285339,
+          "source": "stm32f103c8.pdf",
+          "page": 3,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p2_paragraph_3",
+          "text": ". . . . . 15\n2.3.10 Power supply supervisor  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.11 Voltage regulator  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.12 Low-power modes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.3.13 DMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\n2.3.14 RTC (real-time clock) and backup ",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.5706991297423331,
+          "source": "stm32f103c8.pdf",
+          "page": 2,
+          "document_id": "stm32f103c8"
+        },
+        {
+          "chunk_id": "stm32f103c8_p16_paragraph_4",
+          "text": "to achieve the lowest power consumption. The internal\nvoltage regulator is switched off so that the entire 1.8 V domain is powered off. The\nPLL, the HSI RC and the HSE crystal oscillators are also switched off. After entering\nStandby mode, SRAM and register contents are lost except for registers in the Backup\ndomain and Standby circuitry.\nThe device exits Standby mode when an external reset (NRST pin), an IWDG reset, a\nrising edge on the WKUP pin, or an RTC alarm occurs.\nNote: The RTC, the IWDG,",
+          "metadata": {
+            "device": "STM32F103C8",
+            "family": "STM32F1",
+            "is_empty": false,
+            "manufacturer": "STMicroelectronics",
+            "chunking_strategy": "paragraph"
+          },
+          "score": 0.5554537773132324,
+          "source": "stm32f103c8.pdf",
+          "page": 16,
+          "document_id": "stm32f103c8"
+        }
+      ],
+      "manual_grounding_score_0_to_2": 1,
+      "reason": "Thieu cau khang dinh tham chieu VSS"
+    }
+  ]
+}
